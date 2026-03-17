@@ -65,9 +65,16 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
   const processedContent = await remark().use(html).process(content);
+  const htmlContent = processedContent.toString().replace(
+    /<(h[23])>(.*?)<\/\1>/g,
+    (_, tag, text) => {
+      const id = text.replace(/<[^>]*>/g, "").toLowerCase().replace(/\s+/g, "-").replace(/[^\w-]/g, "");
+      return `<${tag} id="${id}">${text}</${tag}>`;
+    }
+  );
   return {
     ...parsePostData(slug, data),
-    content: processedContent.toString(),
+    content: htmlContent,
   };
 }
 
