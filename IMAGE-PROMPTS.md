@@ -154,6 +154,136 @@ Professional medical educational photography showing a close-up of hands in fron
 
 ---
 
+## Article 6: Acne and Self-Esteem
+
+### Featured Image (save as: `public/images/grid-acne-self-esteem.png`)
+```
+Professional editorial photography on a soft, neutral background. A teenage girl sitting on the edge of her bed, looking down at her hands in her lap with a contemplative, slightly sad expression. Soft natural window light illuminating her face from the side. The mood is quiet and introspective, not dramatic or posed. She's wearing a simple t-shirt, hair pulled back casually. The image conveys vulnerability and the emotional weight of adolescence. Warm muted tones, shallow depth of field focusing on her expression. Magazine editorial portrait style, high resolution.
+```
+
+### Inline Image 1 (save as: `public/images/self-esteem-mirror.png`)
+```
+Professional conceptual photography of a teenager's hand reaching toward a bathroom mirror, with their blurred reflection visible in the background. The focus is on the hand, not the face — suggesting the act of self-examination without showing specific skin conditions. Soft bathroom lighting, slightly steamy atmosphere. The mood is intimate and relatable. Clean editorial photography, warm tones, shallow depth of field, high resolution.
+```
+
+### Inline Image 2 (save as: `public/images/self-esteem-parent-teen.png`)
+```
+Professional lifestyle photography of a parent and teenager sitting together on a couch, having a genuine conversation. The parent is leaning in attentively, the teen is looking down but engaged. Soft warm living room lighting, comfortable home environment. The body language shows care and connection — not lecturing. Both wearing casual clothes. Shot from a slight distance to show the full scene. Warm, authentic documentary-style photography, high resolution.
+```
+
+### Inline Image 3 (save as: `public/images/self-esteem-activities.png`)
+```
+Professional lifestyle photography collage of four panels showing teenagers engaged in confidence-building activities: top-left a teen painting at an easel, top-right a teen playing guitar, bottom-left a teen scoring in a soccer game, bottom-right a teen laughing with friends at a lunch table. Each panel separated by thin white borders. Bright, energetic, optimistic color palette. The teens look genuinely happy and engaged — the focus is on living fully. Editorial lifestyle photography, high resolution.
+```
+
+---
+
+## Article 7: Acne and Bullying
+
+### Featured Image (save as: `public/images/grid-acne-bullying.png`)
+```
+Professional conceptual photography on a soft gray background. A teenager sitting alone on a school bench in a hallway, slightly hunched with a backpack beside them, while blurred figures of other students walk past in the background. The lighting creates a sense of isolation — sharp on the seated teen, motion-blurred on the passing students. The mood conveys loneliness without being melodramatic. The teen's expression is downcast but not crying. School environment, editorial documentary style, high resolution.
+```
+
+### Inline Image 1 (save as: `public/images/bullying-phone-cyber.png`)
+```
+Professional close-up photography of a teenager's hands holding a smartphone with a blank/dark screen, with the phone slightly tilted away as if the teen doesn't want to look at it. The background is a dimly lit bedroom. The lighting is moody — blue phone glow on the hands. The image suggests cyberbullying without showing any actual messages or content. Conceptual, editorial photography style, shallow depth of field, high resolution.
+```
+
+### Inline Image 2 (save as: `public/images/bullying-parent-support.png`)
+```
+Professional lifestyle photography of a parent's arm around a teenager's shoulders in a protective, comforting gesture. Shot from behind so no faces are visible — just the embrace. They're standing in a doorway looking out at soft natural light. The image conveys unconditional support and protection. Warm golden hour lighting, emotional but hopeful mood. Documentary-style photography, high resolution.
+```
+
+### Inline Image 3 (save as: `public/images/bullying-resilience.png`)
+```
+Professional portrait photography of a confident teenager walking down a school hallway with good posture, looking straight ahead with a calm, self-assured expression. Other students are visible but blurred in the background. The lighting is bright and optimistic — natural light from windows. The teen carries a backpack and books casually. The mood is empowered and resilient. Clean, bright editorial photography, shallow depth of field, high resolution.
+```
+
+---
+
+## Article 8: Makeup and Acne
+
+### Featured Image (save as: `public/images/grid-makeup-acne.png`)
+```
+Professional flat lay product photography on a clean white marble surface. A curated arrangement of acne-safe makeup products: a mineral foundation compact, a green color-correcting concealer, a beauty blender sponge, a small bottle of non-comedogenic primer, and a setting powder with a fluffy brush. Everything arranged aesthetically with small labels reading "non-comedogenic," "oil-free," "mineral-based." Soft natural overhead lighting, clean beauty editorial style, high resolution.
+```
+
+### Inline Image 1 (save as: `public/images/makeup-color-correction.png`)
+```
+Professional beauty photography close-up showing a color correction technique. A small patch of skin with a green color corrector applied on one spot and a natural skin-tone concealer being dabbed over it with a fingertip. Include small color swatches nearby: green (cancels redness), peach/orange (cancels dark spots), yellow (cancels purple). Clean white background, macro photography with soft ring light. Beauty editorial style, educational layout, high resolution.
+```
+
+### Inline Image 2 (save as: `public/images/makeup-application-steps.png`)
+```
+Professional infographic-style flat lay on white background showing the correct order of makeup application for acne-prone skin. Five products arranged in a horizontal line with numbered steps: 1. Moisturizer/SPF, 2. Primer, 3. Color Corrector, 4. Foundation, 5. Setting Powder. Small arrows connecting each step. Clean beauty editorial styling with soft natural lighting. Minimalist, educational, high resolution.
+```
+
+### Inline Image 3 (save as: `public/images/makeup-brush-cleaning.png`)
+```
+Professional lifestyle photography of makeup brushes and a beauty sponge being cleaned. A hand holding a brush under running water in a clean white sink, with sudsy cleanser visible. Nearby on a white towel: clean brushes laid out to dry in a neat row. The scene is bright, clean, and hygienic. Soft natural bathroom lighting. The mood conveys good habits and self-care. Clean editorial photography, high resolution.
+```
+
+### Inline Image 4 (save as: `public/images/makeup-ingredients-avoid.png`)
+```
+Professional product photography infographic on white background. Two groups of ingredient labels/bottles. Left side (with green checkmark): bottles labeled "Non-Comedogenic," "Oil-Free," "Mineral-Based," "Water-Based." Right side (with red X): bottles labeled "Coconut Oil," "Lanolin," "Isopropyl Myristate," "Heavy Silicones." Clean typography, medical editorial style, informational layout. Teal and coral accent colors, high resolution.
+```
+
+---
+
+## Article 9: Acne and Social Media
+
+### Featured Image (save as: `public/images/grid-social-media-acne.png`)
+```
+Professional conceptual photography on a clean background. A split-screen concept: on the left, a smartphone screen showing a perfectly filtered, flawless selfie with smooth skin and perfect lighting. On the right, the same phone from the back/side angle showing the real scene — normal lighting, a regular teenage bedroom. The contrast between filtered reality and actual reality. Modern, editorial conceptual photography with clean composition. Slightly cool/blue tones on the filter side, warm natural tones on the reality side. High resolution.
+```
+
+### Inline Image 1 (save as: `public/images/social-media-filters.png`)
+```
+Professional split-image photography showing the same section of skin side by side. Left side labeled "With Filter": smooth, poreless, perfectly even skin tone with slight glow effect. Right side labeled "Without Filter": normal healthy skin with visible pores, slight texture, minor imperfections — normal and beautiful but clearly different from the filtered version. Clean white dividing line between the two. Clinical but accessible photography, even lighting, educational tone. High resolution.
+```
+
+### Inline Image 2 (save as: `public/images/social-media-phone-break.png`)
+```
+Professional lifestyle photography of a teenager's phone placed face-down on a desk next to an open book, a cup of tea, and a small plant. The teenager's hands are visible holding the book, engaged in reading. Soft warm natural window light. The scene conveys a peaceful, intentional break from screens. The mood is calm, present, and grounded. Lifestyle editorial photography, warm tones, shallow depth of field on the phone to emphasize stepping away, high resolution.
+```
+
+### Inline Image 3 (save as: `public/images/social-media-real-skin.png`)
+```
+Professional portrait photography of a diverse group of four teenagers (different ethnicities, genders) standing together and smiling genuinely at the camera. The key detail: their skin is REAL — visible pores, some mild acne, freckles, texture. No filter, no retouching aesthetic. The lighting is bright and flattering but honest. They look happy, confident, and comfortable. The mood celebrates real skin and real people. Clean background, editorial group portrait style, high resolution.
+```
+
+---
+
+## Article 10: Building Confidence with Acne
+
+### Featured Image (save as: `public/images/grid-confidence-acne.png`)
+```
+Professional editorial portrait photography of a teenager with visible mild acne smiling confidently and naturally at the camera. The lighting is warm, bright, and flattering — golden hour style. They're outdoors, perhaps in a park or urban setting with soft bokeh background. The expression is genuine and relaxed, not forced. They're wearing a casual outfit and look like they're mid-laugh or just finished laughing. The mood is authentic confidence and joy. The acne is visible but is clearly NOT the focus — the confidence is. Editorial portrait photography, warm tones, high resolution.
+```
+
+### Inline Image 1 (save as: `public/images/confidence-spotlight-effect.png`)
+```
+Professional conceptual infographic on white background illustrating the "spotlight effect." A simple diagram showing a teenager in the center with a large bright spotlight circle around them labeled "How big you THINK people's attention is." Around that, a much smaller, subtle circle labeled "How much people ACTUALLY notice." Clean, modern illustration style with teal and coral colors. Simple stick-figure or silhouette style for the person. Clear typography, educational but not condescending. High resolution.
+```
+
+### Inline Image 2 (save as: `public/images/confidence-activities.png`)
+```
+Professional lifestyle photography of a teenager on stage performing — could be playing in a band, acting in a school play, or giving a presentation. The lighting is dramatic stage lighting, the teen looks focused and confident. An audience is slightly visible in the foreground, blurred. The image conveys being in your element, doing what you love, and being seen for your talents rather than your appearance. Dynamic, energetic editorial photography, high resolution.
+```
+
+### Inline Image 3 (save as: `public/images/confidence-self-compassion.png`)
+```
+Professional still life photography on a soft neutral background. A teenager's journal open on a desk with a pen resting on it. Visible on the page (handwritten style): a few positive affirmations or gratitude entries — nothing too specific, just suggesting the act of self-reflection. Next to the journal: a warm cup of tea, a small candle (unlit or softly lit), and a cozy sweater sleeve visible at the edge. The mood is peaceful self-care and introspection. Warm, soft editorial photography, shallow depth of field, high resolution.
+```
+
+### Inline Image 4 (save as: `public/images/confidence-famous-acne.png`)
+```
+Professional clean infographic on white background showing a simple timeline or grid of text quotes from well-known public figures who have spoken openly about their acne struggles. No actual photos of celebrities — just clean quote cards with attributions in a modern magazine layout. Use teal accent color for quote marks, clean sans-serif typography. The message is "you're not alone, and acne doesn't define your future." Editorial infographic design, high resolution.
+```
+
+---
+
 ## General Style Notes for All Images
 
 - **Color palette**: Match the blog's teal (#02838d) accent color where possible in illustrations
