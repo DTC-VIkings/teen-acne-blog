@@ -6,6 +6,7 @@ import {
 } from "@/lib/posts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import SourcesHistoryTabs from "@/components/SourcesHistoryTabs";
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -53,6 +54,36 @@ export default async function BlogPost({
           <h1 className="text-[34px] md:text-[46px] font-bold text-[#231f20] leading-[1.08] mt-6 mb-5">
             {post.title}
           </h1>
+
+          {/* Mobile author/reviewer bar */}
+          {post.reviewedBy && (
+            <div className="lg:hidden flex items-center gap-3 mb-6 pb-6 border-b border-[#dcdbdb]">
+              <div className="w-[48px] h-[48px] rounded-full bg-gradient-to-br from-[#02838d] to-[#08565c] flex items-center justify-center text-white font-bold text-[15px] flex-shrink-0">
+                {post.reviewedBy
+                  .split(" ")
+                  .map((n) => n[0])
+                  .join("")
+                  .slice(0, 2)}
+              </div>
+              <div className="text-[13px] leading-[18px] text-[#767474]">
+                <p>
+                  <span className="font-semibold text-[#231f20]">
+                    Medically reviewed
+                  </span>{" "}
+                  by{" "}
+                  <span className="font-semibold text-[#231f20] underline">
+                    {post.reviewedBy}
+                    {post.reviewerCredentials &&
+                      `, ${post.reviewerCredentials}`}
+                  </span>
+                </p>
+                <p className="mt-0.5">
+                  Written by {post.author} &mdash; Updated{" "}
+                  {formatDate(post.updatedDate || post.date)}
+                </p>
+              </div>
+            </div>
+          )}
 
           {/* Quick links */}
           {post.quickLinks && post.quickLinks.length > 0 && (
@@ -110,84 +141,14 @@ export default async function BlogPost({
               How we reviewed this article:
             </h3>
 
-            {/* Sources / History tabs */}
-            <div className="flex gap-6 mb-6 border-b border-[#dcdbdb]">
-              <button className="flex items-center gap-1.5 pb-3 text-[14px] font-bold uppercase tracking-wide text-[#767474] border-b-2 border-transparent hover:text-[#231f20]">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                Sources
-              </button>
-              <button className="flex items-center gap-1.5 pb-3 text-[14px] font-bold uppercase tracking-wide text-[#02838d] border-b-2 border-[#02838d]">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                History
-              </button>
-            </div>
-
-            {/* Sources list */}
-            {post.sources && post.sources.length > 0 && (
-              <div className="mb-6">
-                <p className="text-sm text-[#767474] mb-3">
-                  Our experts continually monitor the health and wellness space,
-                  and we update our articles when new information becomes
-                  available.
-                </p>
-                <ul className="space-y-2">
-                  {post.sources.map((source, i) => (
-                    <li key={i} className="text-sm">
-                      {source.url ? (
-                        <a
-                          href={source.url}
-                          className="text-[#02838d] underline hover:text-[#08565c]"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {source.title}
-                        </a>
-                      ) : (
-                        <span className="text-[#767474]">{source.title}</span>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {/* History timeline */}
-            <div className="relative pl-6 border-l-2 border-[#02838d] space-y-4">
-              <div className="relative">
-                <div className="absolute -left-[25px] top-1 w-3 h-3 rounded-full bg-[#02838d]" />
-                <p className="font-bold text-[15px] text-[#231f20]">
-                  Current Version
-                </p>
-              </div>
-              <div className="relative">
-                <div className="absolute -left-[25px] top-1 w-3 h-3 rounded-full border-2 border-[#02838d] bg-white" />
-                <p className="font-bold text-[15px] text-[#231f20]">
-                  {formatDate(post.updatedDate || post.date)}
-                </p>
-                <p className="text-[14px] text-[#231f20]">Written By</p>
-                <p className="text-[14px] text-[#767474]">{post.author}</p>
-              </div>
-              {post.reviewedBy && (
-                <div className="relative">
-                  <div className="absolute -left-[25px] top-1 w-3 h-3 rounded-full border-2 border-[#02838d] bg-white" />
-                  <p className="font-bold text-[15px] text-[#231f20]">
-                    {formatDate(post.date)}
-                  </p>
-                  <p className="text-[14px] text-[#231f20]">
-                    Medically Reviewed By
-                  </p>
-                  <p className="text-[14px] text-[#767474]">
-                    {post.reviewedBy}
-                    {post.reviewerCredentials &&
-                      `, ${post.reviewerCredentials}`}
-                  </p>
-                </div>
-              )}
-            </div>
+            <SourcesHistoryTabs
+              sources={post.sources}
+              writtenDate={formatDate(post.updatedDate || post.date)}
+              reviewedDate={post.reviewedBy ? formatDate(post.date) : undefined}
+              author={post.author}
+              reviewedBy={post.reviewedBy}
+              reviewerCredentials={post.reviewerCredentials}
+            />
           </div>
 
           {/* Read This Next */}
@@ -224,8 +185,8 @@ export default async function BlogPost({
                         {related.title}
                       </h4>
                       {related.reviewedBy && (
-                        <div className="flex items-center gap-2 mt-2">
-                          <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[#02838d] to-[#08565c] flex items-center justify-center text-white text-[9px] font-bold">
+                        <div className="flex items-center gap-2.5 mt-2.5">
+                          <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#02838d] to-[#08565c] flex items-center justify-center text-white text-[11px] font-bold flex-shrink-0">
                             {related.reviewedBy
                               .split(" ")
                               .map((n) => n[0])
