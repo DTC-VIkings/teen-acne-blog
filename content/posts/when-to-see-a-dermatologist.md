@@ -2,7 +2,7 @@
 title: "When to See a Dermatologist for Your Teen's Acne"
 date: "2026-03-13"
 excerpt: "Over-the-counter products work for many teens, but sometimes you need professional help. Here are the signs it's time to book that appointment."
-category: "Medical"
+category: "Acne Treatments"
 author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"

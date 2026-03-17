@@ -87,6 +87,15 @@ body {
   color: var(--color-foreground);
 }
 
+/* Hide scrollbar on category bar */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* Medical badge styles */
 .medical-badge {
   display: inline-flex;
