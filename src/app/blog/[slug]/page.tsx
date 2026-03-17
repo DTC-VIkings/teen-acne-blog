@@ -5,6 +5,7 @@ import {
   formatDate,
 } from "@/lib/posts";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import SourcesHistoryTabs from "@/components/SourcesHistoryTabs";
 
@@ -164,21 +165,33 @@ export default async function BlogPost({
                     href={`/blog/${related.slug}`}
                     className="group flex gap-5 items-start"
                   >
-                    {/* Thumbnail placeholder */}
-                    <div className="flex-shrink-0 w-[120px] md:w-[160px] aspect-[4/3] rounded-xl bg-gradient-to-br from-[#02838d]/20 to-[#02838d]/5 flex items-center justify-center group-hover:opacity-80 transition-opacity">
-                      <svg
-                        className="w-8 h-8 text-[#02838d]/40"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={1.5}
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.331 0 4.476.884 6.084 2.334m0-14.292a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6.084 2.334"
+                    {/* Thumbnail */}
+                    <div className="flex-shrink-0 w-[120px] md:w-[160px] aspect-[4/3] rounded-xl bg-gradient-to-br from-[#02838d]/20 to-[#02838d]/5 overflow-hidden group-hover:opacity-80 transition-opacity">
+                      {related.featuredImage ? (
+                        <Image
+                          src={related.featuredImage}
+                          alt={related.title}
+                          width={320}
+                          height={240}
+                          className="w-full h-full object-cover"
                         />
-                      </svg>
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center">
+                          <svg
+                            className="w-8 h-8 text-[#02838d]/40"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={1.5}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.331 0 4.476.884 6.084 2.334m0-14.292a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6.084 2.334"
+                            />
+                          </svg>
+                        </div>
+                      )}
                     </div>
                     <div className="flex-1">
                       <h4 className="text-[20px] font-bold text-[#231f20] leading-[26px] group-hover:text-[#08565c] transition-colors">
@@ -265,20 +278,32 @@ export default async function BlogPost({
                         href={`/blog/${related.slug}`}
                         className="group flex gap-3 items-start"
                       >
-                        <div className="flex-shrink-0 w-[80px] aspect-square rounded-lg bg-gradient-to-br from-[#02838d]/20 to-[#02838d]/5 flex items-center justify-center group-hover:opacity-80 transition-opacity">
-                          <svg
-                            className="w-5 h-5 text-[#02838d]/40"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={1.5}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.331 0 4.476.884 6.084 2.334m0-14.292a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6.084 2.334"
+                        <div className="flex-shrink-0 w-[80px] aspect-square rounded-lg bg-gradient-to-br from-[#02838d]/20 to-[#02838d]/5 overflow-hidden group-hover:opacity-80 transition-opacity">
+                          {related.featuredImage ? (
+                            <Image
+                              src={related.featuredImage}
+                              alt={related.title}
+                              width={160}
+                              height={160}
+                              className="w-full h-full object-cover"
                             />
-                          </svg>
+                          ) : (
+                            <div className="w-full h-full flex items-center justify-center">
+                              <svg
+                                className="w-5 h-5 text-[#02838d]/40"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                strokeWidth={1.5}
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.331 0 4.476.884 6.084 2.334m0-14.292a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6.084 2.334"
+                                />
+                              </svg>
+                            </div>
+                          )}
                         </div>
                         <p className="text-[15px] font-bold text-[#231f20] leading-[20px] group-hover:text-[#08565c] transition-colors">
                           {related.title}

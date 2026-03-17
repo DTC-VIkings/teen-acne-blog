@@ -7,6 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. First Last"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
+featuredImage: "/images/your-image-name.png"
 quickLinks:
   - "First section heading"
   - "Second section heading"
@@ -68,7 +69,14 @@ CATEGORY (must be exactly one of these):
 DATE FORMAT:
   YYYY-MM-DD (e.g., 2026-04-15)
 
+FEATURED IMAGE:
+  - Place image in public/images/
+  - Set featuredImage to "/images/filename.png"
+  - Recommended size: 800x600px or similar 4:3 ratio
+  - Supports PNG, JPG, WebP
+
 OPTIONAL FIELDS (delete if not needed):
+  - featuredImage (remove if no featured image)
   - reviewedBy / reviewerCredentials (remove both if no medical reviewer)
   - quickLinks (remove if you don't want jump links)
   - keyTakeaways (remove if no key takeaways box)
@@ -83,6 +91,7 @@ MARKDOWN TIPS:
   - - for bullet lists
   - 1. for numbered lists
   - > for blockquotes/callouts
+  - ![Alt text](/images/photo.jpg) for inline images
 
 TO PUBLISH:
   1. Save this file in content/posts/

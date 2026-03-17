@@ -19,6 +19,7 @@ export interface Post {
   reviewerCredentials?: string;
   keyTakeaways?: string[];
   sources?: { title: string; url?: string }[];
+  featuredImage?: string;
   quickLinks?: string[];
   content: string;
 }
@@ -40,6 +41,7 @@ function parsePostData(
     reviewerCredentials: data.reviewerCredentials as string | undefined,
     keyTakeaways: data.keyTakeaways as string[] | undefined,
     sources: data.sources as { title: string; url?: string }[] | undefined,
+    featuredImage: data.featuredImage as string | undefined,
     quickLinks: data.quickLinks as string[] | undefined,
   };
 }
@@ -48,7 +50,7 @@ export function getAllPosts(): Omit<Post, "content">[] {
   if (!fs.existsSync(postsDirectory)) return [];
   const fileNames = fs.readdirSync(postsDirectory);
   const posts = fileNames
-    .filter((name) => name.endsWith(".md"))
+    .filter((name) => name.endsWith(".md") && !name.startsWith("_"))
     .map((fileName) => {
       const slug = fileName.replace(/\.md$/, "");
       const fullPath = path.join(postsDirectory, fileName);
@@ -97,7 +99,7 @@ export function getAllSlugs(): string[] {
   if (!fs.existsSync(postsDirectory)) return [];
   return fs
     .readdirSync(postsDirectory)
-    .filter((name) => name.endsWith(".md"))
+    .filter((name) => name.endsWith(".md") && !name.startsWith("_"))
     .map((name) => name.replace(/\.md$/, ""));
 }
 
