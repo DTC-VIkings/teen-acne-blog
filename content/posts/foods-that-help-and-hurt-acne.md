@@ -3,6 +3,10 @@ title: "Foods That Help (and Hurt) Teen Acne"
 date: "2026-03-15"
 excerpt: "Diet alone won't cure acne, but what your teen eats can make a real difference. Here's what the research says about food and breakouts."
 category: "Lifestyle"
+author: "Teen Acne Solutions Team"
+authorTitle: "Health & Skincare Writers"
+reviewedBy: "Dr. James Chen"
+reviewerCredentials: "MD, Dermatology & Nutrition"
 ---
 
 Let's get this out of the way: **diet doesn't cause acne.** Hormones, genetics, and bacteria are the main drivers. But research shows that certain foods can make breakouts worse — or better.

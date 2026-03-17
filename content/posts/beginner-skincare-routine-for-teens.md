@@ -3,6 +3,10 @@ title: "A Simple Skincare Routine for Teens Who Are Just Starting Out"
 date: "2026-03-17"
 excerpt: "Your teen doesn't need a 10-step routine. Here's a simple, dermatologist-backed approach that actually works — and that they'll stick with."
 category: "Routines"
+author: "Teen Acne Solutions Team"
+authorTitle: "Health & Skincare Writers"
+reviewedBy: "Dr. Sarah Mitchell"
+reviewerCredentials: "MD, Board-Certified Dermatologist"
 ---
 
 If your teen is dealing with breakouts for the first time, it can be tempting to buy every product on the shelf. But more products often means more irritation — and a routine they'll abandon in a week.

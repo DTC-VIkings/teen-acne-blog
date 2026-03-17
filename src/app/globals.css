@@ -3,12 +3,101 @@
 
 @theme inline {
   --color-background: #ffffff;
-  --color-foreground: #171717;
+  --color-foreground: #231f20;
+  --color-primary: #02838d;
+  --color-primary-dark: #08565c;
+  --color-accent: #db1f88;
+  --color-accent-dark: #9b1561;
+  --color-text-secondary: #767474;
+  --color-border: #dcdbdb;
+  --color-surface: #f7f7f7;
+  --color-callout-bg: #fbf5ed;
+  --color-callout-border: #f0533a;
   --font-sans: var(--font-geist-sans);
 }
 
 body {
   background: var(--color-background);
   color: var(--color-foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), "Proxima Nova", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+/* Healthline-style prose overrides */
+.prose h2 {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.prose h3 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.prose ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose ul > li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.prose ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
+.prose p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.prose a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose a:hover {
+  color: var(--color-primary-dark);
+}
+
+.prose blockquote {
+  background: var(--color-callout-bg);
+  border-left: 4px solid var(--color-callout-border);
+  padding: 20px 24px;
+  margin: 28px 0;
+  border-radius: 0 8px 8px 0;
+  font-style: normal;
+  color: var(--color-foreground);
+}
+
+.prose strong {
+  font-weight: 700;
+  color: var(--color-foreground);
+}
+
+/* Medical badge styles */
+.medical-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+  background: #e6f4f5;
+  padding: 3px 8px;
+  border-radius: 4px;
 }

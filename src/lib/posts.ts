@@ -10,9 +10,32 @@ export interface Post {
   slug: string;
   title: string;
   date: string;
+  updatedDate?: string;
   excerpt: string;
   category: string;
+  author: string;
+  authorTitle?: string;
+  reviewedBy?: string;
+  reviewerCredentials?: string;
   content: string;
+}
+
+function parsePostData(
+  slug: string,
+  data: Record<string, unknown>
+): Omit<Post, "content"> {
+  return {
+    slug,
+    title: data.title as string,
+    date: data.date as string,
+    updatedDate: data.updatedDate as string | undefined,
+    excerpt: data.excerpt as string,
+    category: (data.category as string) || "Tips",
+    author: (data.author as string) || "Teen Acne Solutions Team",
+    authorTitle: data.authorTitle as string | undefined,
+    reviewedBy: data.reviewedBy as string | undefined,
+    reviewerCredentials: data.reviewerCredentials as string | undefined,
+  };
 }
 
 export function getAllPosts(): Omit<Post, "content">[] {
@@ -25,13 +48,7 @@ export function getAllPosts(): Omit<Post, "content">[] {
       const fullPath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, "utf8");
       const { data } = matter(fileContents);
-      return {
-        slug,
-        title: data.title,
-        date: data.date,
-        excerpt: data.excerpt,
-        category: data.category || "Tips",
-      };
+      return parsePostData(slug, data);
     });
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
@@ -43,11 +60,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   const { data, content } = matter(fileContents);
   const processedContent = await remark().use(html).process(content);
   return {
-    slug,
-    title: data.title,
-    date: data.date,
-    excerpt: data.excerpt,
-    category: data.category || "Tips",
+    ...parsePostData(slug, data),
     content: processedContent.toString(),
   };
 }
@@ -58,4 +71,13 @@ export function getAllSlugs(): string[] {
     .readdirSync(postsDirectory)
     .filter((name) => name.endsWith(".md"))
     .map((name) => name.replace(/\.md$/, ""));
+}
+
+export function formatDate(dateStr: string): string {
+  const date = new Date(dateStr + "T00:00:00");
+  return date.toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
 }

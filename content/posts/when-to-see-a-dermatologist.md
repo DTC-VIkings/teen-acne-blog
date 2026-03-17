@@ -3,6 +3,10 @@ title: "When to See a Dermatologist for Your Teen's Acne"
 date: "2026-03-13"
 excerpt: "Over-the-counter products work for many teens, but sometimes you need professional help. Here are the signs it's time to book that appointment."
 category: "Medical"
+author: "Teen Acne Solutions Team"
+authorTitle: "Health & Skincare Writers"
+reviewedBy: "Dr. Sarah Mitchell"
+reviewerCredentials: "MD, Board-Certified Dermatologist"
 ---
 
 Most mild teen acne can be managed at home with a good routine and the right over-the-counter products. But there's a point where drugstore solutions aren't enough — and waiting too long can lead to scarring.
