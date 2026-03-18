@@ -181,7 +181,7 @@ You can't replicate that by mixing salicylic acid with some water and a bunch of
 
 ## Best Budget System: Murad Acne Control 30-Day Kit
 
-![Murad Acne Control 30-Day Kit](/images/murad-acne-kit.jpg)
+![Murad Acne Control 30-Day Kit](/images/murad-acne-kit.webp)
 
 **[Murad Acne Control 30-Day Kit](https://www.murad.com/collections/acne-treatment-kits)** — $57 | Score: 76/100
 
@@ -228,7 +228,7 @@ The Murad kit is the best conventional acne system on the market. Period. The en
 
 ### 3. TULA Acne Clearing Routine — $88 | Score: 71/100
 
-![TULA Acne Clearing Routine](/images/tula-acne-routine.jpg)
+![TULA Acne Clearing Routine](/images/tula-acne-routine.webp)
 
 **[TULA Acne Clearing Routine](https://tula.com/products/acne-clearing-routine)** — 3-piece system with a probiotic angle.
 
@@ -244,7 +244,7 @@ TULA's differentiator is probiotics — the formulations include probiotic extra
 
 ### 4. Proactiv Solution 3-Step System — $95/90 days | Score: 65/100
 
-![Proactiv Solution 3-Step System](/images/proactiv-system.jpg)
+![Proactiv Solution 3-Step System](/images/proactiv-system.webp)
 
 **[Proactiv Solution 3-Step System](https://www.proactiv.com/)** — The most recognized name in teen acne.
 
@@ -264,7 +264,7 @@ And here's what bothered us most: Proactiv spends more on celebrity endorsements
 
 ### 5. Exposed Skin Care Basic Kit — $65 | Score: 63/100
 
-![Exposed Skin Care Basic Kit](/images/exposed-basic-kit.jpg)
+![Exposed Skin Care Basic Kit](/images/exposed-basic-kit.webp)
 
 **[Exposed Skin Care Basic Kit](https://www.exposedskincare.com/products/basic-kit)** — 5-piece system with a "science meets nature" approach.
 
@@ -278,7 +278,7 @@ Exposed tries to split the difference between conventional and natural. The kit 
 
 ### 6. Clinique Acne Solutions Clear Skin System — $50 | Score: 61/100
 
-![Clinique Acne Solutions Clear Skin System](/images/clinique-acne-system.jpg)
+![Clinique Acne Solutions Clear Skin System](/images/clinique-acne-system.png)
 
 **[Clinique Acne Solutions Clear Skin System Starter Kit](https://www.clinique.com/product/1669/5615/skincare/acne/clear-skin-starter-kit/acne-solutions-clear-skin-system-starter-kit)** — 3-piece department store system.
 
@@ -292,7 +292,7 @@ Clinique brings pharmaceutical-brand credibility. The system includes Acne Solut
 
 ### 7. Dermalogica Clear Start Breakout Clearing Kit — $45 | Score: 56/100
 
-![Dermalogica Clear Start Breakout Clearing Kit](/images/dermalogica-clear-start.jpg)
+![Dermalogica Clear Start Breakout Clearing Kit](/images/dermalogica-clear-start.webp)
 
 **[Dermalogica Clear Start Breakout Clearing Kit](https://www.dermalogica.com/collections/teen-acne)** — 3-piece teen-focused system.
 
@@ -320,7 +320,7 @@ This is the core treatment step from our #1 pick — the same Arctic wild-harves
 
 ### 9. CeraVe Acne Foaming Cream Cleanser — $15 | Score: 48/100
 
-![CeraVe Acne Foaming Cream Cleanser](/images/cerave-acne-cleanser.jpg)
+![CeraVe Acne Foaming Cream Cleanser](/images/cerave-acne-cleanser.webp)
 
 **[CeraVe Acne Foaming Cream Cleanser](https://www.cerave.com/)** — Single cleanser.
 
