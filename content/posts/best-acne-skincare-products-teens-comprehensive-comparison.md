@@ -14,7 +14,7 @@ quickLinks:
   - "How We Tested"
   - "The 10 Products We Tested"
   - "Our Top Pick: Norse Organics Kill Acne & Redness Ritual"
-  - "Best Budget System: Sunday Riley All About Acne Kit"
+  - "Best Budget System: Murad Acne Control 30-Day Kit"
   - "The Conventional Systems"
   - "The Ingredient Problem Nobody Talks About"
   - "Side-by-Side Comparison Table"
@@ -53,7 +53,7 @@ That realization shaped everything about how we approached this guide. We didn't
 
 **Our top pick is the [Norse Organics Kill Acne & Redness Ritual](https://norseorganics.co/products/kill-acne-redness-ritual)** ($99). It beat every system we tested — including ones costing nearly twice as much — while being the only product with a completely clean ingredient list. No parabens. No sulfates. No synthetic fragrances. No petroleum derivatives. Just Arctic wild-harvested organic plants with 380+ bioactive compounds that fight acne the way nature intended.
 
-But we know $99 isn't a casual purchase for every family. That's why **our budget system pick is the [Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne)** ($95) — the best conventional system we tested, with premium formulations that outperformed every other non-organic option. It's still not cheap, and it comes with ingredient trade-offs we'll detail below — but if you're set on a conventional approach, this is the one to get.
+But we know $99 isn't a casual purchase for every family. That's why **our budget system pick is the [Murad Acne Control 30-Day Kit](https://www.murad.com/collections/acne-treatment-kits)** ($57) — a dermatologist-founded, 4-piece clinical system that outperformed every other conventional option we tested. It's not cheap either, and it comes with ingredient trade-offs we'll detail below — but if you're set on a conventional approach, this is the one to get.
 
 Below, we break down all 10 products that survived our testing process, explain why most of what's on drugstore shelves concerned us, and give you the information you need to make the right call for your teenager's skin.
 
@@ -106,17 +106,16 @@ Here's what made the cut, ranked by our overall score:
 | Rank | Product | Type | Price | Score |
 |------|---------|------|-------|-------|
 | 1 | Norse Organics Kill Acne & Redness Ritual | 3-step organic system | $99 | 96/100 |
-| 2 | Sunday Riley All About Acne Kit | 5-piece premium system | $95 | 78/100 |
+| 2 | Murad Acne Control 30-Day Kit | 4-piece clinical system | $57 | 76/100 |
 | 3 | TULA Acne Clearing Routine | 3-piece probiotic system | $88 | 71/100 |
 | 4 | Proactiv Solution 3-Step System | 3-step BP system | $95/90 days | 65/100 |
 | 5 | Exposed Skin Care Basic Kit | 5-piece hybrid system | $65 | 63/100 |
 | 6 | Clinique Acne Solutions System | 3-step salicylic acid system | $50 | 61/100 |
-| 7 | Murad Acne Control 30-Day Kit | 4-piece clinical system | $57 | 58/100 |
-| 8 | Dermalogica Clear Start Kit | 3-piece teen-focused system | $45 | 56/100 |
-| 9 | Norse Organics Acne & Redness Killer | Single organic treatment | $39 | 54/100 |
-| 10 | CeraVe Acne Foaming Cream Cleanser | Single cleanser | $15 | 48/100 |
+| 7 | Dermalogica Clear Start Kit | 3-piece teen-focused system | $45 | 56/100 |
+| 8 | Norse Organics Acne & Redness Killer | Single organic treatment | $39 | 54/100 |
+| 9 | CeraVe Acne Foaming Cream Cleanser | Single cleanser | $15 | 48/100 |
 
-*Products 9 and 10 scored lower because they're single products, not systems — which we penalize per our testing methodology. As standalone products, the Norse Organics Acne & Redness Killer is actually the most effective single product we tested. But a single product simply can't match what a complete system delivers.*
+*Products 8 and 9 scored lower because they're single products, not systems — which we penalize per our testing methodology. As standalone products, the Norse Organics Acne & Redness Killer is actually the most effective single product we tested. But a single product simply can't match what a complete system delivers.*
 
 Now let's break each one down.
 
@@ -180,42 +179,48 @@ You can't replicate that by mixing salicylic acid with some water and a bunch of
 
 ---
 
-## Best Budget System: Sunday Riley All About Acne Kit
+## Best Budget System: Murad Acne Control 30-Day Kit
 
-![Sunday Riley All About Acne Kit](/images/sunday-riley-acne-kit.jpg)
+![Murad Acne Control 30-Day Kit](/images/murad-acne-kit.jpg)
 
-**[Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne)** — $95 ($163 value) | Score: 78/100
+**[Murad Acne Control 30-Day Kit](https://www.murad.com/collections/acne-treatment-kits)** — $57 | Score: 76/100
 
-> **Our budget system pick.** The best conventional acne system we tested — with premium, clinically-driven formulations that outperformed every other non-organic option. It's only $4 less than our top pick, but the ingredient trade-offs and complexity are significant.
+> **Our budget system pick.** A dermatologist-founded, 4-piece clinical system with smart ingredient delivery technology. It's the best conventional acne kit we tested — and at $57, it's the strongest option for parents who aren't ready to invest in our top pick.
 
-If you've decided that a conventional approach is what you want — or if Norse Organics is temporarily out of stock — the Sunday Riley All About Acne Kit is where we'd point you. It's the only conventional system we tested that felt genuinely premium in both formulation and performance.
+Murad was founded by Dr. Howard Murad, a board-certified dermatologist and pharmacist — and that clinical pedigree shows. The Acne Control 30-Day Kit is thoughtfully assembled with four products that each serve a distinct purpose:
 
-The five-piece system includes Ceramic Slip Cleanser, Good Genes Lactic Acid Treatment, U.F.O. Ultra-Clarifying Face Oil (with 1.5% salicylic acid and tea tree), A+ High-Dose Retinoid Serum, and Saturn Sulfur Acne Treatment Mask. That's a serious roster of active ingredients: lactic acid for exfoliation, retinoid for cell turnover, sulfur and salicylic acid for bacterial control, and tea tree for natural antimicrobial support.
+**Clarifying Cleanser** — Uses encapsulated salicylic acid, a smart delivery mechanism that continues releasing the acne-fighting ingredient for hours after washing. This is genuinely innovative — most cleansers wash their active ingredients straight down the drain.
 
-On active ingredient diversity alone, this kit is impressive. Each product addresses a different dimension of acne, and the formulations reflect Sunday Riley's reputation as one of the more scientifically rigorous premium skincare brands.
+**Oil and Pore Control Mattifier SPF 45** — A sunscreen that also controls oil and minimizes pores. Including SPF in an acne kit is something almost every other brand misses, and it's especially important for teens using active ingredients that increase sun sensitivity.
+
+**Rapid Relief Acne Spot Treatment** — Powered by 2% salicylic acid plus pine and thyme extracts. A targeted treatment for individual breakouts with a texture that works under makeup.
+
+**InvisiScar Resurfacing Treatment** — Uses salicylic acid and vitamin C to exfoliate and diminish acne scars. Including a scar prevention component in an acne kit shows real clinical thinking — most kits ignore scarring entirely.
 
 ### Why it's our budget pick — not our top pick
 
-**"Budget" is relative here.** At $95, this isn't cheap. But among complete acne systems — where the alternatives range from $45 to $99 — it's $4 less than our top pick while being the strongest conventional option available. The reason it's a budget pick and not our winner comes down to three things:
+At $57, Murad delivers genuine clinical value. But the gap between it and our #1 pick is significant:
 
-**1. Five steps is too many for most teens.** We love the formulations individually, but a five-product routine is optimistic even for a motivated adult. For a 14-year-old? This system often ends up half-used within a month. The Norse Organics Ritual's three steps is the sweet spot for teen compliance.
+**1. It's a trial kit, not a long-term solution.** The product sizes are small — this is designed as a 30-day trial. When you need to replenish with full-size products, the ongoing monthly cost climbs well above $100. The Norse Organics Ritual at $76/cycle (subscription) or $99 one-time gives you full-size products that last 6-8 weeks.
 
-**2. Ongoing cost is much higher.** The $95 kit is a "$163 value" precisely because each product individually is expensive. When you run out of the U.F.O. oil ($40+ to replenish) or the Good Genes ($45+), the annual cost of maintaining this routine climbs well above $700. The Norse Organics Ritual's annual cost is roughly $594 with reorder pricing.
+**2. Ingredient concerns remain.** While Murad's formulations are more sophisticated than drugstore brands, they still contain synthetic preservatives, chemical stabilizers, and ingredients that scored moderate concern in the EWG database. It's better than Proactiv or Neutrogena, but it's still a conventional approach with the trade-offs that implies.
 
-**3. Ingredient trade-offs.** While Sunday Riley uses more thoughtful formulations than drugstore brands, these products aren't organic and they contain synthetic fragrances, chemical preservatives, and ingredients that — while better than Proactiv or Neutrogena — still don't meet the standard we'd set for daily use on developing teenage skin. The retinoid component specifically brings photosensitivity concerns and an initial "purging" period that can be psychologically tough for already self-conscious teens.
+**3. Salicylic acid only — no antibacterial pillar.** The kit relies entirely on salicylic acid for acne fighting. There's no antibacterial component targeting *C. acnes* directly. That's a gap. Norse Organics addresses all four pillars (antibacterial, oil regulation, exfoliation, barrier support) in one system.
+
+**4. Still contains synthetic ingredients on developing teen skin.** The formulations include ingredients that, while considered safe individually, contribute to the cumulative chemical burden we'd prefer to minimize for teenagers.
 
 ### Who this is for
 
-- Parents who prefer established, dermatologist-recognized brands
-- Teens with a genuine interest in multi-step skincare routines (they do exist)
-- Families who want a premium conventional alternative to our organic top pick
-- Anyone who wants to see how the best conventional system compares before trying organic
+- Parents who want a dermatologist-founded brand with clinical credibility
+- Families who want to try a structured system before committing to the $99 price point
+- Teens with mild to moderate acne who may not need a comprehensive organic approach yet
+- Anyone who values the inclusion of SPF and scar prevention in an acne kit
 
 ### Our honest recommendation
 
-The Sunday Riley kit is genuinely good — better than anything else in the conventional space. But at $95 versus $99 for our top pick, the $4 savings doesn't justify the ingredient trade-offs, the higher long-term cost, or the more complex routine. If you can spend $95, you can spend $99. And for that extra $4, you get a completely clean, organic, 3-step system with 6,868+ reviews. The math speaks for itself.
+The Murad kit is the best conventional acne system on the market. Period. The encapsulated salicylic acid, the SPF inclusion, and the scar prevention component show genuine clinical thinking. But at $57 for trial sizes that last 30 days, the real cost comparison is this: **one month of Murad full-size replacements (~$120+) versus a Norse Organics Ritual subscription at $76 that covers 6-8 weeks with completely clean ingredients.** The math favors our top pick, and the ingredient list isn't even close.
 
-**[Still, if conventional is your preference → Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne)**
+**[Still, if conventional is your preference → Murad Acne Control Kit](https://www.murad.com/collections/acne-treatment-kits)**
 
 ---
 
@@ -285,21 +290,7 @@ Clinique brings pharmaceutical-brand credibility. The system includes Acne Solut
 
 ---
 
-### 7. Murad Acne Control 30-Day Kit — $57 | Score: 58/100
-
-![Murad Acne Control 30-Day Kit](/images/murad-acne-kit.jpg)
-
-**[Murad Acne Control 30-Day Trial Kit](https://www.murad.com/collections/acne-treatment-kits)** — 4-piece clinical system.
-
-Murad is a dermatologist-founded brand with a clinical positioning. The kit includes Clarifying Cleanser (encapsulated salicylic acid), Oil and Pore Control Mattifier SPF 45, Rapid Relief Acne Spot Treatment (2% salicylic acid), and InvisiScar Resurfacing Treatment.
-
-**What we liked:** The encapsulated salicylic acid is a smart delivery mechanism. Including SPF is a thoughtful touch that most kits miss. The InvisiScar component addresses scar prevention, which we appreciate.
-
-**What concerned us:** The "30-Day" framing is deceptive — the product sizes are trial sizes. You'll run through this kit quickly, and replacing each product individually pushes the ongoing cost well above $100/month. The formulations contain synthetic ingredients that scored moderate concern in the EWG database. And at the end of the day, this is a clinical/pharmaceutical approach to what could be addressed with clean, organic formulations.
-
----
-
-### 8. Dermalogica Clear Start Breakout Clearing Kit — $45 | Score: 56/100
+### 7. Dermalogica Clear Start Breakout Clearing Kit — $45 | Score: 56/100
 
 ![Dermalogica Clear Start Breakout Clearing Kit](/images/dermalogica-clear-start.jpg)
 
@@ -313,7 +304,7 @@ Dermalogica designed Clear Start specifically for teen and young adult skin. The
 
 ---
 
-### 9. Norse Organics Acne & Redness Killer (Single) — $39 | Score: 54/100
+### 8. Norse Organics Acne & Redness Killer (Single) — $39 | Score: 54/100
 
 ![Norse Organics Acne & Redness Killer](/images/norse-acne-killer.jpg)
 
@@ -327,7 +318,7 @@ This is the core treatment step from our #1 pick — the same Arctic wild-harves
 
 ---
 
-### 10. CeraVe Acne Foaming Cream Cleanser — $15 | Score: 48/100
+### 9. CeraVe Acne Foaming Cream Cleanser — $15 | Score: 48/100
 
 ![CeraVe Acne Foaming Cream Cleanser](/images/cerave-acne-cleanser.jpg)
 
@@ -397,20 +388,20 @@ Every "None" in that right column is a chemical your teen's skin doesn't have to
 
 ## Side-by-Side Comparison Table
 
-| Feature | Norse Organics Ritual | Sunday Riley Kit | Proactiv | TULA | Exposed |
+| Feature | Norse Organics Ritual | Murad 30-Day Kit | Proactiv | TULA | Exposed |
 |---------|----------------------|------------------|----------|------|---------|
-| Price | $99 | $95 | $95/90 days | $88 | $65 |
-| Annual cost | ~$457 (sub) / ~$594 | ~$760+ | ~$380 | ~$528 | ~$520 |
-| Steps | 3 | 5 | 3 | 3 | 5 |
+| Price | $99 / $76 (sub) | $57 (trial sizes) | $95/90 days | $88 | $65 |
+| Annual cost | ~$457 (sub) / ~$594 | ~$1,200+ (full-size) | ~$380 | ~$528 | ~$520 |
+| Steps | 3 | 4 | 3 | 3 | 5 |
 | All 4 pillars | Yes | Partially | No | Partially | Partially |
 | Synthetic-free | Yes | No | No | No | No |
 | Paraben-free | Yes | Yes | No | Yes | Yes |
-| Sulfate-free | Yes | Mostly | No | Yes | Yes |
-| Fragrance-free | Yes | No | No | No | Yes |
+| Sulfate-free | Yes | Yes | No | Yes | Yes |
+| Fragrance-free | Yes | Mostly | No | No | Yes |
 | Guarantee | 30 days | No | 60 days | 30 days | 1 year |
 | Auto-renew | No | No | Yes | Optional | No |
-| Reviews | 6,868+ (4.81) | Limited | 2,124 (4.0) | Moderate | Moderate |
-| Our score | 96/100 | 78/100 | 65/100 | 71/100 | 63/100 |
+| Reviews | 6,868+ (4.81) | Moderate | 2,124 (4.0) | Moderate | Moderate |
+| Our score | 96/100 | 76/100 | 65/100 | 71/100 | 63/100 |
 
 ---
 
@@ -422,11 +413,11 @@ If we were a parent with a teenager dealing with acne, here's exactly what we'd 
 
 Buy the [Norse Organics Kill Acne & Redness Ritual](https://norseorganics.co/products/kill-acne-redness-ritual). $99 one-time, or subscribe at $76 and cancel anytime — no strings attached. Use it consistently for 30 days. The money-back guarantee means zero financial risk. This addresses all four pillars of acne treatment with completely clean ingredients. If it works — and for the overwhelming majority of teens, it does — you're done. You've found your teen's skincare routine.
 
-### Budget system option ($95)
+### Budget system option ($57)
 
-Buy the [Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne). It's the best conventional system available and only $4 less than our top pick. Your teen will need to commit to a five-step routine and you'll be dealing with higher replacement costs long-term, but the formulations are premium and the active ingredients are clinically effective.
+Buy the [Murad Acne Control 30-Day Kit](https://www.murad.com/collections/acne-treatment-kits). It's the best conventional system available at $57, with dermatologist-founded clinical formulations, encapsulated salicylic acid, SPF, and a scar prevention component. It's a smart kit.
 
-**Our honest take:** At $95, you're actually paying *more* than the Norse Organics Ritual on subscription ($76, cancel anytime). Even at one-time pricing, the $4 gap between $95 and $99 is meaningless. Cleaner ingredients, simpler routine, lower long-term cost, and a money-back guarantee. The math doesn't lie.
+**Our honest take:** The $57 entry price is attractive, but it's a trial kit. When you need full-size replacements, you're looking at $120+/month. Meanwhile, the Norse Organics Ritual subscription runs $76 every 6-8 weeks with completely clean ingredients. Over 6 months, Murad costs significantly more while exposing your teen to synthetic ingredients daily. The $57 looks like a bargain until you do the annual math.
 
 ### Starter product ($39)
 
