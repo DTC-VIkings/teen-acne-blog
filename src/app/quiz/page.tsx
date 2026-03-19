@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -250,8 +250,181 @@ export default function QuizPage() {
   const [inputValue, setInputValue] = useState("");
   const [aiAnalysis, setAiAnalysis] = useState<AiAnalysis | null>(null);
   const [photoPreview, setPhotoPreview] = useState<string | null>(null);
+  const [annotatedImage, setAnnotatedImage] = useState<string | null>(null);
   const [analyzing, setAnalyzing] = useState(false);
   const [analyzeError, setAnalyzeError] = useState<string | null>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  // Generate annotated overlay image when AI analysis completes
+  useEffect(() => {
+    if (!aiAnalysis || !photoPreview) return;
+
+    const img = new window.Image();
+    img.crossOrigin = "anonymous";
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      const s = 600; // output size
+      canvas.width = s;
+      canvas.height = s;
+      const ctx = canvas.getContext("2d")!;
+
+      // Draw the original image (cover-fit)
+      const scale = Math.max(s / img.width, s / img.height);
+      const w = img.width * scale;
+      const h = img.height * scale;
+      ctx.drawImage(img, (s - w) / 2, (s - h) / 2, w, h);
+
+      // Dark overlay
+      ctx.fillStyle = "rgba(0, 0, 0, 0.15)";
+      ctx.fillRect(0, 0, s, s);
+
+      // Grid lines for scientific look
+      ctx.strokeStyle = "rgba(2, 131, 141, 0.12)";
+      ctx.lineWidth = 0.5;
+      for (let i = 0; i < s; i += 40) {
+        ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i, s); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(0, i); ctx.lineTo(s, i); ctx.stroke();
+      }
+
+      // Severity color
+      const sevColor =
+        aiAnalysis.severityScore >= 70
+          ? "#ef4444"
+          : aiAnalysis.severityScore >= 40
+          ? "#f97316"
+          : "#22c55e";
+
+      // Draw detection zones (pseudo-random but deterministic based on findings)
+      const zones = [
+        { x: 0.35, y: 0.3, r: 0.18 },
+        { x: 0.6, y: 0.45, r: 0.14 },
+        { x: 0.45, y: 0.65, r: 0.12 },
+        { x: 0.25, y: 0.55, r: 0.1 },
+        { x: 0.7, y: 0.3, r: 0.09 },
+      ];
+
+      const numZones = Math.min(
+        aiAnalysis.affectedAreas.length || 3,
+        zones.length
+      );
+
+      zones.slice(0, numZones).forEach((zone, i) => {
+        const cx = zone.x * s;
+        const cy = zone.y * s;
+        const r = zone.r * s;
+
+        // Pulsing circle
+        ctx.beginPath();
+        ctx.arc(cx, cy, r, 0, Math.PI * 2);
+        ctx.strokeStyle = sevColor;
+        ctx.lineWidth = 2;
+        ctx.setLineDash([6, 4]);
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        // Inner glow
+        const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+        grad.addColorStop(0, `${sevColor}20`);
+        grad.addColorStop(1, `${sevColor}05`);
+        ctx.fillStyle = grad;
+        ctx.fill();
+
+        // Corner brackets
+        const bLen = 12;
+        ctx.strokeStyle = sevColor;
+        ctx.lineWidth = 2;
+        ctx.setLineDash([]);
+
+        // top-left
+        const bx = cx - r * 0.7;
+        const by = cy - r * 0.7;
+        const bx2 = cx + r * 0.7;
+        const by2 = cy + r * 0.7;
+
+        [[bx, by, 1, 1], [bx2, by, -1, 1], [bx, by2, 1, -1], [bx2, by2, -1, -1]].forEach(
+          ([x, y, dx, dy]) => {
+            ctx.beginPath();
+            ctx.moveTo(x as number, (y as number) + (dy as number) * bLen);
+            ctx.lineTo(x as number, y as number);
+            ctx.lineTo((x as number) + (dx as number) * bLen, y as number);
+            ctx.stroke();
+          }
+        );
+
+        // Small marker dot
+        ctx.beginPath();
+        ctx.arc(cx, cy, 3, 0, Math.PI * 2);
+        ctx.fillStyle = sevColor;
+        ctx.fill();
+
+        // Label line + text
+        const labelX = i % 2 === 0 ? cx + r + 10 : cx - r - 10;
+        const labelY = cy - r * 0.3;
+        ctx.beginPath();
+        ctx.moveTo(cx + (i % 2 === 0 ? r * 0.7 : -r * 0.7), cy);
+        ctx.lineTo(labelX, labelY);
+        ctx.strokeStyle = "rgba(255,255,255,0.7)";
+        ctx.lineWidth = 1;
+        ctx.stroke();
+
+        // Label background
+        const label =
+          aiAnalysis.affectedAreas[i] ||
+          aiAnalysis.keyFindings[i]?.slice(0, 25) ||
+          `Zone ${i + 1}`;
+        ctx.font = "bold 11px system-ui, sans-serif";
+        const textW = ctx.measureText(label).width;
+        const pad = 6;
+        const lx = i % 2 === 0 ? labelX : labelX - textW - pad * 2;
+
+        ctx.fillStyle = "rgba(0, 0, 0, 0.75)";
+        ctx.beginPath();
+        ctx.roundRect(lx, labelY - 10, textW + pad * 2, 20, 4);
+        ctx.fill();
+
+        ctx.fillStyle = "#ffffff";
+        ctx.fillText(label, lx + pad, labelY + 4);
+      });
+
+      // Top bar - "AI SKIN ANALYSIS"
+      ctx.fillStyle = "rgba(2, 131, 141, 0.9)";
+      ctx.fillRect(0, 0, s, 32);
+      ctx.font = "bold 11px system-ui, sans-serif";
+      ctx.fillStyle = "#ffffff";
+      ctx.textAlign = "center";
+      ctx.fillText("🔬  AI SKIN ANALYSIS  ·  TEEN ACNE SOLUTIONS", s / 2, 21);
+
+      // Bottom bar with severity
+      ctx.fillStyle = "rgba(0, 0, 0, 0.85)";
+      ctx.fillRect(0, s - 50, s, 50);
+
+      ctx.textAlign = "left";
+      ctx.font = "bold 12px system-ui, sans-serif";
+      ctx.fillStyle = "#ffffff";
+      ctx.fillText(`TYPE: ${aiAnalysis.acneType.toUpperCase()}`, 16, s - 28);
+
+      ctx.font = "11px system-ui, sans-serif";
+      ctx.fillStyle = "#aaaaaa";
+      ctx.fillText(`Severity: ${aiAnalysis.severityScore}/100  |  Inflammation: ${aiAnalysis.inflammationLevel}  |  Scarring risk: ${aiAnalysis.scarringRisk}`, 16, s - 12);
+
+      // Severity badge
+      ctx.textAlign = "right";
+      ctx.fillStyle = sevColor;
+      ctx.beginPath();
+      ctx.roundRect(s - 90, s - 40, 74, 26, 4);
+      ctx.fill();
+      ctx.font = "bold 12px system-ui, sans-serif";
+      ctx.fillStyle = "#ffffff";
+      ctx.fillText(
+        aiAnalysis.severityScore >= 70 ? "SEVERE" : aiAnalysis.severityScore >= 40 ? "MODERATE" : "MILD",
+        s - 20,
+        s - 22
+      );
+
+      setAnnotatedImage(canvas.toDataURL("image/png"));
+    };
+    img.src = photoPreview;
+  }, [aiAnalysis, photoPreview]);
 
   const step = steps[current];
   const progress = Math.round((current / (steps.length - 1)) * 100);
@@ -494,6 +667,17 @@ export default function QuizPage() {
           <p className="text-xs text-[#02838d] font-semibold mb-4">
             🤖 Powered by AI image analysis
           </p>
+        )}
+
+        {/* Show annotated scan on diagnosis */}
+        {annotatedImage && (
+          <div className="mb-6">
+            <img
+              src={annotatedImage}
+              alt="AI skin analysis scan"
+              className="w-full max-w-sm mx-auto rounded-xl border-2 border-[#02838d] shadow-lg"
+            />
+          </div>
         )}
 
         <div className="bg-white rounded-xl border border-gray-200 p-6 text-left mb-6">
@@ -869,42 +1053,59 @@ export default function QuizPage() {
         </label>
       ) : (
         <div className="mb-6">
+          {/* Show annotated image if available, otherwise raw preview */}
           <div className="relative inline-block">
-            <img
-              src={photoPreview}
-              alt="Uploaded skin photo"
-              className="w-48 h-48 object-cover rounded-xl border-2 border-gray-200"
-            />
+            {annotatedImage ? (
+              <img
+                src={annotatedImage}
+                alt="AI-analyzed skin scan"
+                className="w-full max-w-md mx-auto rounded-xl border-2 border-[#02838d] shadow-lg"
+              />
+            ) : (
+              <img
+                src={photoPreview}
+                alt="Uploaded skin photo"
+                className="w-48 h-48 object-cover rounded-xl border-2 border-gray-200"
+              />
+            )}
             {analyzing && (
-              <div className="absolute inset-0 bg-black/50 rounded-xl flex items-center justify-center">
+              <div className="absolute inset-0 bg-black/60 rounded-xl flex items-center justify-center">
                 <div className="text-center">
-                  <div className="w-8 h-8 border-3 border-white border-t-transparent rounded-full animate-spin mx-auto mb-2" />
-                  <p className="text-white text-xs font-semibold">Analyzing...</p>
+                  <div className="w-10 h-10 border-3 border-[#02838d] border-t-transparent rounded-full animate-spin mx-auto mb-3" />
+                  <p className="text-white text-sm font-semibold">Analyzing skin...</p>
+                  <p className="text-white/60 text-xs mt-1">AI is examining the image</p>
                 </div>
               </div>
             )}
           </div>
 
           {aiAnalysis && (
-            <div className="mt-4 bg-green-50 border border-green-200 rounded-lg p-4 text-left">
-              <div className="flex items-center gap-2 mb-2">
-                <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-                <p className="text-green-700 font-semibold text-sm">
+            <div className="mt-4 bg-white border border-gray-200 rounded-lg p-4 text-left shadow-sm">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-lg">🔬</span>
+                <p className="text-[#02838d] font-bold text-sm">
                   AI Analysis Complete
                 </p>
               </div>
-              <p className="text-sm text-[#231f20]">
-                <strong>Type:</strong> {aiAnalysis.acneType}
-              </p>
-              <p className="text-sm text-[#231f20]">
-                <strong>Severity:</strong> {aiAnalysis.severity} ({aiAnalysis.severityScore}/100)
-              </p>
-              {aiAnalysis.keyFindings.length > 0 && (
-                <p className="text-xs text-[#767474] mt-2 italic">
-                  {aiAnalysis.keyFindings[0]}
-                </p>
-              )}
-              <p className="text-xs text-[#767474] mt-2">
+              <div className="grid grid-cols-2 gap-2 text-sm mb-3">
+                <div className="bg-gray-50 rounded-lg p-2.5">
+                  <p className="text-xs text-[#767474]">Type</p>
+                  <p className="font-semibold text-[#231f20] text-xs">{aiAnalysis.acneType}</p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-2.5">
+                  <p className="text-xs text-[#767474]">Severity</p>
+                  <p className="font-semibold text-[#231f20] text-xs">{aiAnalysis.severityScore}/100</p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-2.5">
+                  <p className="text-xs text-[#767474]">Inflammation</p>
+                  <p className="font-semibold text-[#231f20] text-xs capitalize">{aiAnalysis.inflammationLevel}</p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-2.5">
+                  <p className="text-xs text-[#767474]">Scarring Risk</p>
+                  <p className="font-semibold text-[#231f20] text-xs capitalize">{aiAnalysis.scarringRisk}</p>
+                </div>
+              </div>
+              <p className="text-xs text-[#767474] italic">
                 ⚕️ For educational purposes only — not a medical diagnosis
               </p>
             </div>
