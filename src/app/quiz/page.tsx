@@ -533,6 +533,7 @@ export default function QuizPage() {
             const analysis = data.analysis;
             // Check if the AI couldn't detect acne
             if (
+              data.noAcneDetected ||
               analysis.acneType === "Unable to analyze" ||
               analysis.severityScore === 0
             ) {

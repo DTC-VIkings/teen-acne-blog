@@ -26,21 +26,24 @@ export async function POST(req: NextRequest) {
     const mimeMatch = image.match(/^data:(image\/[^;]+);/);
     const mimeType = mimeMatch ? mimeMatch[1] : "image/jpeg";
 
-    const prompt = `You are a dermatology AI assistant. Analyze this photo of skin and provide a JSON assessment.
+    const prompt = `You are a dermatology AI assistant. Analyze this photo and provide a JSON assessment.
 
-This is for educational purposes only, not medical diagnosis.
+IMPORTANT RULES:
+1. If the photo does NOT clearly show skin with acne (e.g. it's a selfie without acne, a product photo, a pet, food, a random object, or anything that is NOT a close-up of acne-affected skin), you MUST return:
+{"acneType":"Unable to analyze","severity":"none","severityScore":0,"affectedAreas":[],"inflammationLevel":"none","scarringRisk":"none","keyFindings":["No acne detected in this image"],"recommendation":"Please upload a clear photo showing the affected skin area.","noAcneDetected":true}
 
-Return a JSON object with these exact fields:
-- acneType: string (e.g. "Inflammatory (papules & pustules)", "Mixed comedonal & inflammatory", "Cystic / Nodular")
+2. If the photo DOES show skin with acne, return a JSON object with these fields:
+- acneType: string (e.g. "Inflammatory (papules & pustules)", "Mixed comedonal & inflammatory", "Cystic / Nodular", "Comedonal (blackheads & whiteheads)")
 - severity: string ("mild", "moderate", "severe", or "critical")
 - severityScore: number (1-100)
 - affectedAreas: array of strings (e.g. ["cheeks", "jawline", "forehead"])
 - inflammationLevel: string ("low", "moderate", or "high")
 - scarringRisk: string ("low", "moderate", or "high")
-- keyFindings: array of 3 strings describing what you observe
-- recommendation: string (1-2 sentences recommending gentle, natural approaches)
+- keyFindings: array of exactly 3 strings describing specific observations
+- recommendation: string (1-2 sentences recommending gentle, natural approaches first)
+- noAcneDetected: false
 
-If the image doesn't show skin, set acneType to "Unable to analyze" and severityScore to 0.`;
+Return ONLY the JSON object, no other text.`;
 
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
@@ -81,26 +84,38 @@ If the image doesn't show skin, set acneType to "Unable to analyze" and severity
 
     const data = await response.json();
 
-    // Gemini 2.5 Flash may return multiple parts (thinking + response)
-    // Find the part that contains JSON text
+    // Gemini 2.5 Flash returns multiple parts (thinking + response)
+    // We need to find the JSON part
     const candidates = data?.candidates || [];
     let text = "";
 
     for (const candidate of candidates) {
       const parts = candidate?.content?.parts || [];
-      for (const part of parts) {
+      // Iterate in reverse — the last part is usually the actual response
+      for (let i = parts.length - 1; i >= 0; i--) {
+        const part = parts[i];
         if (part.text) {
-          // Check if this part contains JSON (skip thinking parts)
           const trimmed = part.text.trim();
-          if (trimmed.startsWith("{") || trimmed.startsWith("```")) {
+          // Check if this part looks like JSON
+          if (trimmed.startsWith("{") || trimmed.startsWith("[") || trimmed.startsWith("```")) {
             text = trimmed;
             break;
           }
-          // If we haven't found JSON yet, keep this as fallback
-          if (!text) text = trimmed;
         }
       }
       if (text) break;
+    }
+
+    // Fallback: grab ANY text from parts
+    if (!text) {
+      for (const candidate of candidates) {
+        const parts = candidate?.content?.parts || [];
+        for (const part of parts) {
+          if (part.text && part.text.trim()) {
+            text = part.text.trim();
+          }
+        }
+      }
     }
 
     if (!text) {
@@ -111,7 +126,7 @@ If the image doesn't show skin, set acneType to "Unable to analyze" and severity
       );
     }
 
-    // Extract JSON - handle markdown fences, raw JSON, etc.
+    // Extract JSON from the response
     let jsonStr = text;
 
     // Remove markdown code fences if present
@@ -120,26 +135,49 @@ If the image doesn't show skin, set acneType to "Unable to analyze" and severity
     // Find the JSON object
     const jsonMatch = jsonStr.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
-      console.error("No JSON found in response:", text.slice(0, 300));
+      console.error("No JSON found in response:", text.slice(0, 500));
       return NextResponse.json(
         { error: "Could not parse AI response" },
         { status: 500 }
       );
     }
 
-    const analysis = JSON.parse(jsonMatch[0]);
-
-    // Validate required fields exist
-    if (!analysis.acneType || analysis.severityScore === undefined) {
-      console.error("Missing fields in analysis:", analysis);
+    let analysis;
+    try {
+      analysis = JSON.parse(jsonMatch[0]);
+    } catch (parseErr) {
+      console.error("JSON parse error:", parseErr, "Raw:", jsonMatch[0].slice(0, 300));
       return NextResponse.json(
-        { error: "Incomplete AI analysis" },
+        { error: "Could not parse AI response" },
         { status: 500 }
       );
     }
 
+    // Check for non-acne photos
+    if (
+      analysis.noAcneDetected === true ||
+      analysis.acneType === "Unable to analyze" ||
+      analysis.severityScore === 0
+    ) {
+      return NextResponse.json({
+        success: true,
+        noAcneDetected: true,
+        analysis: {
+          acneType: "Unable to analyze",
+          severity: "none",
+          severityScore: 0,
+          affectedAreas: [],
+          inflammationLevel: "none",
+          scarringRisk: "none",
+          keyFindings: ["No acne detected in this image"],
+          recommendation: "Please upload a clear photo showing the affected skin area.",
+        },
+      });
+    }
+
     return NextResponse.json({
       success: true,
+      noAcneDetected: false,
       analysis: {
         acneType: analysis.acneType || "Unknown",
         severity: analysis.severity || "moderate",
