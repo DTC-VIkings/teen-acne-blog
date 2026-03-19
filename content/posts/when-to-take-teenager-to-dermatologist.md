@@ -54,7 +54,7 @@ Research suggests that the average parent waits roughly 18 months after acne fir
 
 This guide is for parents who are on the fence. We'll walk through the specific signs that it's time, explain exactly what happens at a first dermatology appointment (no surprises), cover insurance and cost realities, and help you prepare your teen so the visit feels empowering rather than embarrassing.
 
-![Parent and teen consulting with a dermatologist in a clinic setting](/images/parent-teen-dermatologist-consultation.png)
+![Parent and teen consulting with a dermatologist in a clinic setting](/images/grid-dermatologist-visit.png)
 
 ## Signs It's Time to Go
 
@@ -105,7 +105,7 @@ Print this out or save it to your phone. If your teen meets **two or more** of t
 
 **If even one of the bolded items above applies — emotional impact or scarring — that alone is reason enough.**
 
-![Close-up comparison of mild acne versus moderate-to-severe acne requiring dermatologist evaluation](/images/acne-severity-comparison.png)
+![Close-up comparison of mild acne versus moderate-to-severe acne requiring dermatologist evaluation](/images/papules-vs-other-types.png)
 
 ## Why Parents Wait Too Long
 
@@ -151,7 +151,7 @@ Expect the appointment to last 15 to 30 minutes total. Some parents are surprise
 
 Before you leave, you should receive a clear treatment plan. This might include prescription medications (topical, oral, or both), specific product recommendations, lifestyle guidance, and a follow-up timeline. A good practice will provide written instructions — either printed or sent via a patient portal — so you're not relying on memory.
 
-![Dermatologist explaining a treatment plan to a parent and teen with a visual chart](/images/treatment-plan-discussion.png)
+![Dermatologist explaining a treatment plan to a parent and teen with a visual chart](/images/nodular-acne-treatment-ladder.png)
 
 ## Questions to Ask the Dermatologist
 
@@ -241,7 +241,7 @@ Dermatology is one of the specialties that has adapted well to telehealth. Many 
 
 Telehealth can also solve the access problem. If you live in a rural area or the nearest dermatologist has a months-long waitlist, a virtual visit can get treatment started much sooner.
 
-![Teen participating in a telehealth dermatology appointment from home](/images/teen-telehealth-dermatology.png)
+![Teen participating in a telehealth dermatology appointment from home](/images/self-esteem-parent-teen.png)
 
 ## Preparing Your Teen
 

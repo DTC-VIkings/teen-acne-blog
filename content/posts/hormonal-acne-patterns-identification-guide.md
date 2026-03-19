@@ -49,7 +49,7 @@ If you have ever noticed that your breakouts always seem to cluster in the same 
 
 This guide is not about treatment (we cover that in depth in our [hormonal acne treatment guide](/posts/hormonal-acne-teenagers-causes-treatment)). Instead, this is about learning to *read* your skin — understanding the visual patterns and timing clues that distinguish hormonal acne from other types, so you can have a more informed conversation with your dermatologist and take control of your skincare approach.
 
-![Diagram showing common hormonal acne zones on the face, highlighting the jawline, chin, and lower cheeks](/images/hormonal-acne-face-zones-diagram.png)
+![Diagram showing common hormonal acne zones on the face, highlighting the jawline, chin, and lower cheeks](/images/hormonal-acne-jawline.png)
 *Common zones where hormonal acne concentrates. The lower third of the face — jawline, chin, and lower cheeks — is the classic hormonal territory.*
 
 ## What Makes Acne "Hormonal"
@@ -115,7 +115,7 @@ The best way to determine whether your acne is cyclically hormonal is to track i
 
 After two to three months, a clear pattern usually emerges. Many teens find it helpful to use a period-tracking app that also allows symptom logging, or simply to keep a brief daily skin journal.
 
-![Calendar illustration showing a typical cyclical acne pattern across a menstrual cycle, with breakout intensity peaking 7-10 days before menstruation](/images/cyclical-acne-calendar-pattern.png)
+![Calendar illustration showing a typical cyclical acne pattern across a menstrual cycle, with breakout intensity peaking 7-10 days before menstruation](/images/hormonal-acne-puberty-timeline.png)
 *A typical cyclical breakout pattern. Notice how breakouts concentrate in the late luteal phase, approximately 7-10 days before the period begins.*
 
 ## Hormonal Acne in Boys vs. Girls
@@ -171,7 +171,7 @@ Modern dermatology does not support the idea that acne on your forehead means yo
 
 Think of it this way: face mapping based on organ connections is largely myth. But face mapping based on *androgen receptor distribution, sebaceous gland density, and external contact patterns* is scientifically supported. Your breakout location does carry information — just not the mystical kind.
 
-![Side-by-side comparison of traditional face mapping claims versus scientifically supported zone-based acne factors](/images/face-mapping-myth-vs-science.png)
+![Side-by-side comparison of traditional face mapping claims versus scientifically supported zone-based acne factors](/images/hormonal-acne-vs-other.png)
 *Traditional face mapping vs. what dermatology actually supports. The lower face hormonal connection has real scientific backing, but claims about organ connections do not.*
 
 ## Breakout Location Decoder
@@ -304,7 +304,7 @@ Each evening, spend 30 seconds noting three things:
 - **Stress correlation?** If breakouts consistently appear 1-2 weeks after stressful periods, the cortisol-androgen pathway is likely contributing.
 - **External triggers?** If one cheek is always worse, or if forehead acne correlates with specific hair products, you may have identified a non-hormonal trigger you can directly address.
 
-![Example of a simple acne tracking journal showing date, location, type, and cycle day entries](/images/acne-tracking-journal-example.png)
+![Example of a simple acne tracking journal showing date, location, type, and cycle day entries](/images/hormonal-acne-treatment-options.png)
 *A simple tracking journal does not need to be complicated. Even basic daily notes can reveal clear patterns after 2-3 months of consistent tracking.*
 
 ## Putting It All Together

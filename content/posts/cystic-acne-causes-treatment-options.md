@@ -68,7 +68,7 @@ Cystic acne most commonly appears on the:
 
 It affects roughly **2 to 3 percent of the population** at some point, but among teenagers with acne, rates of severe cystic presentations are notably higher — particularly in males between the ages of 15 and 19, when androgen levels surge during puberty.
 
-![Diagram showing the depth of cystic acne compared to surface-level acne — cysts form deep in the dermis, far below the skin surface](/images/cystic-acne-depth-diagram.png)
+![Diagram showing the depth of cystic acne compared to surface-level acne — cysts form deep in the dermis, far below the skin surface](/images/cystic-acne-vs-nodule-diagram.png)
 
 ## How Cysts Form: The Biology Behind the Breakout
 
@@ -141,7 +141,7 @@ Studies have consistently shown that if one or both of your parents experienced 
 
 This is critically important to understand because it means **cystic acne is not caused by poor hygiene, eating chocolate, or not washing your face enough.** These are persistent myths that cause immense guilt and shame in teenagers who are already suffering. Cystic acne is a medical condition with a strong genetic basis, and it deserves medical treatment — not blame.
 
-![Close-up illustration showing how a cystic acne lesion differs from a normal pimple, with the ruptured follicle wall and fluid-filled cavity clearly labeled](/images/cystic-vs-regular-acne-illustration.png)
+![Close-up illustration showing how a cystic acne lesion differs from a normal pimple, with the ruptured follicle wall and fluid-filled cavity clearly labeled](/images/cystic-acne-emotional-impact.png)
 
 ## Why Over-the-Counter Products Cannot Treat Cystic Acne
 
@@ -204,7 +204,7 @@ However, cortisone shots are a **management tool, not a cure.** They treat indiv
 
 For severe cystic acne that does not respond adequately to other treatments — or for any cystic acne that poses a significant scarring risk — **isotretinoin (formerly sold as Accutane)** is the gold standard treatment. It is the only medication that addresses all four pathogenic factors of acne simultaneously, and it remains the most effective treatment available for severe cystic acne.
 
-![Infographic showing the treatment ladder for cystic acne — from topical retinoids through oral antibiotics, hormonal therapy, and isotretinoin](/images/cystic-acne-treatment-ladder.png)
+![Infographic showing the treatment ladder for cystic acne — from topical retinoids through oral antibiotics, hormonal therapy, and isotretinoin](/images/cystic-acne-treatment-timeline.png)
 
 ## Isotretinoin: What You Need to Know
 
@@ -336,7 +336,7 @@ You should advocate for aggressive treatment if:
 
 You have the right to ask your dermatologist about isotretinoin or to request a referral to a dermatologist who prescribes it. If your current provider is reluctant to escalate treatment while your skin is scarring, **seek a second opinion.** This is your face, your body, and your future. Early, aggressive treatment for severe cystic acne is not an overreaction — it is the medically appropriate response.
 
-![Photo showing the improvement in cystic acne over a treatment course — before, during, and after treatment comparison](/images/cystic-acne-treatment-progress.png)
+![Photo showing the improvement in cystic acne over a treatment course — before, during, and after treatment comparison](/images/cystic-acne-isotretinoin.png)
 
 ## There Is Real Hope: You Will Get Through This
 

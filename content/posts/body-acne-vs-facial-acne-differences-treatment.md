@@ -51,7 +51,7 @@ That is because body acne and facial acne are not the same condition playing out
 
 In this guide, we break down everything you need to know about body acne vs. facial acne — from the biology behind each to the specific treatments that work where, and what you should never cross-apply between the two.
 
-![Infographic comparing body skin and facial skin structure side by side](/images/body-vs-facial-skin-anatomy.png)
+![Infographic comparing body skin and facial skin structure side by side](/images/body-acne-skin-thickness.png)
 
 ## How Body Skin Differs from Facial Skin
 
@@ -116,7 +116,7 @@ This is a body-specific trigger that has no equivalent for facial acne, and it e
 
 Detergents, fabric softeners, and dryer sheets can leave residue on clothing and bedsheets that irritates the skin and contributes to body breakouts. Similarly, synthetic fabrics that do not breathe well can trap heat and moisture against the skin. These are meaningful triggers for body acne that have little relevance to facial acne.
 
-![Diagram showing common body acne trigger zones — backpack straps, sports equipment areas, and sweat-prone regions](/images/body-acne-trigger-zones.png)
+![Diagram showing common body acne trigger zones — backpack straps, sports equipment areas, and sweat-prone regions](/images/body-acne-locations-map.png)
 
 ## Common Body Acne Locations
 
@@ -191,7 +191,7 @@ For body acne, **when** you shower matters almost as much as what you use. Key r
 
 These hygiene-focused strategies have no real equivalent in facial acne care, where the skin is always exposed and the triggers are more about sebum and hormones than about clothing and sweat occlusion.
 
-![Side-by-side comparison of recommended product strengths for face vs. body](/images/face-vs-body-treatment-strengths.png)
+![Side-by-side comparison of recommended product strengths for face vs. body](/images/body-acne-treatment-products.png)
 
 ## What You Can Use on Your Body but NOT Your Face
 
@@ -299,7 +299,7 @@ Because body acne has unique triggers, it also has unique prevention strategies 
 - Clip hair up or wrap it in a towel before applying body products
 - Consider switching to lighter, non-comedogenic hair products if you notice a pattern between hair product use and back or shoulder breakouts
 
-![Illustrated step-by-step guide to an anti-body-acne shower routine](/images/body-acne-shower-routine.png)
+![Illustrated step-by-step guide to an anti-body-acne shower routine](/images/body-acne-lookalikes.png)
 
 ## When to See a Dermatologist
 

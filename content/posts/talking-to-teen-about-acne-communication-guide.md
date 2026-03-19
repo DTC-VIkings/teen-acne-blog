@@ -88,7 +88,7 @@ Adolescence is fundamentally about separating from parents and establishing an i
 
 This is why the same teenager who will happily ask a friend for skincare advice will shut down completely when you offer the exact same suggestion. It is not about the information. It is about who it is coming from.
 
-![Illustration of a parent and teen sitting side by side in a car, having a calm conversation](/images/parent-teen-car-conversation.png)
+![Illustration of a parent and teen sitting side by side in a car, having a calm conversation](/images/self-esteem-parent-teen.png)
 
 ## Things Parents Say That Backfire
 
@@ -118,7 +118,7 @@ You have probably already said at least one of these. Most parents have. Underst
 
 **Why it hurts (when unsolicited):** Launching into product recommendations or treatment suggestions before your teen has asked for help communicates that you have been studying their face, that you find it problematic enough to research solutions for, and that you think you know better than they do about their own skin. Even if all of those things are partially true, leading with advice skips over the part where you acknowledge how they feel.
 
-![Illustration showing examples of common phrases parents say about acne with X marks, contrasted with better alternatives](/images/acne-conversation-dos-donts.png)
+![Illustration showing examples of common phrases parents say about acne with X marks, contrasted with better alternatives](/images/bullying-parent-support.png)
 
 ## When and Where to Have the Talk
 
@@ -195,7 +195,7 @@ Here are specific phrases you can use, along with why they work. Adapt them to y
 
 **Why it works:** Sometimes the best thing you can do is leave information where they can find it — a link texted casually, a product left on their bathroom counter without fanfare. This lets them engage on their own terms, without the pressure of your watching eyes.
 
-![Illustration of a parent texting a casual, supportive message about skincare to their teen](/images/parent-texting-teen-skincare.png)
+![Illustration of a parent texting a casual, supportive message about skincare to their teen](/images/confidence-self-compassion.png)
 
 ## If Your Teen Won't Talk About It
 
@@ -275,7 +275,7 @@ If they decide they want to see a dermatologist, make the appointment promptly. 
 
 If they want to try products, take them shopping and let them choose. Offer guidance if they ask for it. Do not steer them toward what you think is best unless they specifically want your opinion.
 
-![Illustration of a parent and teen shopping together for skincare products in a store](/images/teen-parent-skincare-shopping.png)
+![Illustration of a parent and teen shopping together for skincare products in a store](/images/grid-buying-products.png)
 
 ## The Ongoing Conversation
 

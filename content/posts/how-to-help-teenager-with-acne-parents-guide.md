@@ -53,7 +53,7 @@ Here's what I want you to know before we get into the practical stuff: **you are
 
 This parent guide to teen acne will walk you through what the research actually says, what to avoid saying, what genuinely helps, and how to navigate everything from building a skincare routine together to deciding when it's time for a dermatologist. Let's get into it.
 
-![Parent and teenager having a supportive conversation about skincare](/images/parent-teen-skincare-conversation.png)
+![Parent and teenager having a supportive conversation about skincare](/images/self-esteem-parent-teen.png)
 
 ## Why This Matters More Than You Think
 
@@ -123,7 +123,7 @@ Teenagers are notoriously inconsistent. The biggest challenge with acne treatmen
 
 If you comment on your own skin negatively, obsess over appearance, or make offhand remarks about other people's skin — your teen is absorbing all of it. Model the relationship with appearance that you want your teen to have.
 
-![A simple, teen-friendly skincare routine laid out on a bathroom counter](/images/teen-skincare-routine-setup.png)
+![A simple, teen-friendly skincare routine laid out on a bathroom counter](/images/skincare-routine-morning.png)
 
 ## Scripts That Work: What to Actually Say
 
@@ -208,7 +208,7 @@ A first dermatologist visit for teen acne typically involves a skin assessment, 
 
 The dermatologist should explain the timeline, side effects, and follow-up plan. If they don't, ask. You're paying for expertise — use it.
 
-![Teenager at a dermatologist appointment with a supportive parent nearby](/images/teen-dermatologist-appointment.png)
+![Teenager at a dermatologist appointment with a supportive parent nearby](/images/grid-dermatologist-visit.png)
 
 ## Managing the Emotional Side
 
@@ -265,7 +265,7 @@ Let's talk about something most parent guides skip entirely: acne treatment can 
 
 Your teen doesn't need the most expensive products. They need the right products used consistently. A $12 benzoyl peroxide wash used every night will outperform a $60 boutique cleanser used sporadically every time.
 
-![A simple, affordable teen skincare routine with basic drugstore products](/images/affordable-teen-acne-products.png)
+![A simple, affordable teen skincare routine with basic drugstore products](/images/grid-buying-products.png)
 
 ## What You Can't Control (and Why That's Okay)
 

@@ -63,7 +63,7 @@ Here is what makes acne mechanica different from the breakouts you might already
 
 That last point is important. Acne mechanica does not require oily skin, hormonal fluctuations, or a genetic predisposition to acne. It is purely mechanical — your skin reacting to a physical insult.
 
-![Diagram showing areas commonly affected by acne mechanica on teens — forehead from helmets, chin from straps, shoulders from backpack straps, and chest from sports bras](/images/acne-mechanica-common-areas-diagram.png)
+![Diagram showing areas commonly affected by acne mechanica on teens — forehead from helmets, chin from straps, shoulders from backpack straps, and chest from sports bras](/images/grid-acne-mechanica.png)
 
 ## How Friction Causes Breakouts: The Mechanism Behind Acne Mechanica
 
@@ -119,7 +119,7 @@ Here is one that surprises many teens: pressing your phone against your cheek du
 
 Student musicians who play violin or viola often develop a distinctive patch of acne (or irritation called "fiddler's neck") on the left side of their jaw and neck where the chin rest makes contact. Hours of daily practice means hours of friction and pressure in a concentrated area.
 
-![Photo showing helmet acne pattern on a teen's forehead, with breakouts matching the helmet padding contact points](/images/helmet-acne-mechanica-forehead.png)
+![Photo showing helmet acne pattern on a teen's forehead, with breakouts matching the helmet padding contact points](/images/back-acne-causes.png)
 
 ## Maskne Explained: The COVID Legacy That Did Not Go Away
 
@@ -177,7 +177,7 @@ If you are unsure whether your breakouts qualify as acne mechanica, here are the
 
 **Response to removing the trigger.** If your breakouts improve significantly during off-season, vacations, or any period when you are not using the suspected gear, that strongly suggests mechanica.
 
-![Side-by-side comparison of regular acne vulgaris (scattered, mixed locations) versus acne mechanica (patterned, matching gear contact)](/images/acne-mechanica-vs-regular-acne-comparison.png)
+![Side-by-side comparison of regular acne vulgaris (scattered, mixed locations) versus acne mechanica (patterned, matching gear contact)](/images/papules-vs-other-types.png)
 
 ## Treatment and Prevention
 
@@ -242,7 +242,7 @@ For areas where friction is unavoidable (like the forehead under a helmet rim), 
 
 If you have a choice between rough, textured gear padding and smooth, moisture-wicking alternatives, choose the smoother option. Rough textures create more friction and more follicular irritation with every movement.
 
-![Teen athlete applying helmet liner before football practice as an acne mechanica prevention strategy](/images/helmet-liner-acne-prevention.png)
+![Teen athlete applying helmet liner before football practice as an acne mechanica prevention strategy](/images/back-acne-clothing-tips.png)
 
 ## When Acne Mechanica Combines With Regular Acne
 

@@ -53,7 +53,7 @@ Take a breath. You don't need most of what's on that shelf.
 
 This guide will walk you through exactly what to buy, what to skip, and how to put together a teen acne routine from the drugstore that actually works â€” without spending your grocery budget in the process.
 
-![Parent and teenager looking at skincare products in a drugstore aisle](/images/parent-teen-drugstore-shopping.png)
+![Parent and teenager looking at skincare products in a drugstore aisle](/images/grid-buying-products.png)
 
 ## The Only Ingredients That Matter
 
@@ -150,7 +150,7 @@ Non-negotiable, especially if your teen is using adapalene or benzoyl peroxide â
 
 **Pro tip:** If your teen refuses to wear a separate sunscreen, buy a moisturizer with built-in SPF 30+ and use that in the morning. It's not perfect, but it's infinitely better than no sun protection at all.
 
-![Flat lay photo showing the four essential acne products: cleanser, treatment, moisturizer, and sunscreen](/images/four-essential-acne-products-flatlay.png)
+![Flat lay photo showing the four essential acne products: cleanser, treatment, moisturizer, and sunscreen](/images/skincare-routine-morning.png)
 
 ## Your Screenshot-Ready Shopping List
 
@@ -236,7 +236,7 @@ Instead, follow this timeline:
 
 Yes, this is slow. Your teen will want faster results. Explain that going slow is actually the *fastest* route because you avoid setbacks from irritation and allergic reactions.
 
-![Infographic showing the week-by-week product introduction timeline](/images/product-introduction-timeline-infographic.png)
+![Infographic showing the week-by-week product introduction timeline](/images/skincare-routine-patch-test.png)
 
 ## Budget Breakdown
 
@@ -333,7 +333,7 @@ A dermatologist has access to prescription-strength retinoids, topical and oral 
 
 > For help knowing when it's time, check out our guide: [When to See a Dermatologist for Teen Acne](/posts/when-to-see-a-dermatologist).
 
-![Teenager with clear, healthy skin smiling confidently](/images/teen-clear-skin-confidence.png)
+![Teenager with clear, healthy skin smiling confidently](/images/confidence-activities.png)
 
 ## A Quick Word About Your Teen's Feelings
 

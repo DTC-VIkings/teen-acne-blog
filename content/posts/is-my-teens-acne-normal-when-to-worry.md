@@ -57,7 +57,7 @@ But -- and this is the part that matters -- not all acne is created equal. There
 
 Let's walk through it together.
 
-![Comparison showing mild, moderate, and severe teen acne side by side](/images/acne-severity-comparison.png)
+![Comparison showing mild, moderate, and severe teen acne side by side](/images/grid-acne-normal.png)
 *Understanding the spectrum: from normal breakouts to acne that needs medical attention.*
 
 ## What Normal Teen Acne Looks Like
@@ -113,7 +113,7 @@ Dermatologists grade acne on a spectrum, but the clinical terms can be confusing
 
 **Your move:** See a dermatologist. Do not wait. Severe acne needs prescription-strength treatment, potentially including oral medications, and every week of delay increases the risk of permanent scarring.
 
-![Infographic illustrating mild, moderate, and severe acne with descriptions of each level](/images/acne-severity-scale-infographic.png)
+![Infographic illustrating mild, moderate, and severe acne with descriptions of each level](/images/papules-vs-other-types.png)
 *The acne severity scale: knowing where your teen falls helps you know how to respond.*
 
 ## The Traffic Light System: When to Relax, Monitor, or Act
@@ -198,7 +198,7 @@ For many teenagers, acne reaches its peak during mid-adolescence. Boys often exp
 
 Most teens see their acne begin to improve in the later teen years as hormone levels start to stabilize. However, some -- particularly girls -- may continue to experience hormonal acne into their twenties. If acne is still severe or worsening at this age rather than improving, it is worth a dermatology visit to discuss longer-term management strategies.
 
-![Timeline graphic showing acne progression through the teen years from ages 8 to 19](/images/teen-acne-age-timeline.png)
+![Timeline graphic showing acne progression through the teen years from ages 8 to 19](/images/hormonal-acne-puberty-timeline.png)
 *Acne follows a general timeline through puberty, though every teen's experience is unique.*
 
 ## When Acne Signals Something Else
@@ -283,7 +283,7 @@ Bringing up acne with a teenager requires some finesse. Here are a few approache
 
 The goal is to be your teen's ally, not their critic. Let them know you see what they are going through, you take it seriously, and you are ready to help when they are ready to accept it.
 
-![Mother and teenager having a supportive conversation about skincare](/images/parent-teen-acne-conversation.png)
+![Mother and teenager having a supportive conversation about skincare](/images/self-esteem-parent-teen.png)
 *Approaching the acne conversation with empathy makes your teen more likely to accept help.*
 
 ## The Bottom Line: Normal vs. Not Normal

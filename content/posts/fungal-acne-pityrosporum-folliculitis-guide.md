@@ -71,7 +71,7 @@ Pityrosporum folliculitis is particularly common in teenagers and young adults, 
 
 It's also more common in warm, humid climates. Research from the Philippines found that pityrosporum folliculitis was one of the most frequently diagnosed follicular conditions in tropical regions, where heat and humidity create ideal conditions for *Malassezia* overgrowth. But you don't need to live in the tropics — any situation that creates a warm, sweaty environment on your skin can trigger it.
 
-![Close-up comparison showing the visual differences between fungal acne (uniform small bumps) and regular acne (varied sizes and types)](/images/placeholder-fungal-acne-1.png)
+![Close-up comparison showing the visual differences between fungal acne (uniform small bumps) and regular acne (varied sizes and types)](/images/fungal-acne-vs-regular-comparison.png)
 
 ## Fungal Acne vs Regular Acne
 
@@ -127,7 +127,7 @@ Here's a practical checklist you can use to evaluate your breakouts. The more bo
 
 **If you checked 3 or more of these**, there's a reasonable chance your breakouts are fungal in nature. But the only way to confirm for certain is through a dermatologist visit. They can perform a simple skin scraping, examine it under a microscope using a KOH (potassium hydroxide) preparation, or use a Wood's lamp (a type of UV light) to look for *Malassezia* yeast.
 
-![Diagram showing the most common locations for fungal acne on the body: forehead, chest, upper back, and shoulders](/images/placeholder-fungal-acne-2.png)
+![Diagram showing the most common locations for fungal acne on the body: forehead, chest, upper back, and shoulders](/images/fungal-acne-malassezia-diagram.png)
 
 ## What Causes Fungal Acne
 
@@ -179,7 +179,7 @@ Benzoyl peroxide is one of the most effective ingredients for regular acne becau
 
 Many acne treatments dry out the skin, so the standard advice is to use a moisturizer. The problem? Many conventional moisturizers contain fatty acids and oils that feed *Malassezia*. So you use a drying acne treatment that doesn't address the yeast, your skin gets dry and irritated, you apply a moisturizer that feeds the yeast, and the cycle continues. It's a lose-lose situation when you're fighting the wrong enemy.
 
-![Infographic showing the cycle: misdiagnosis leads to wrong treatment, which disrupts skin balance, which makes fungal acne worse, which leads to more aggressive wrong treatment](/images/placeholder-fungal-acne-3.png)
+![Infographic showing the cycle: misdiagnosis leads to wrong treatment, which disrupts skin balance, which makes fungal acne worse, which leads to more aggressive wrong treatment](/images/fungal-acne-diagnostic-checklist.png)
 
 ## How to Treat Fungal Acne
 
@@ -245,7 +245,7 @@ Not all oils and fatty acids feed *Malassezia*, and learning which to avoid can 
 
 **Tip:** Websites and apps like "Folliculitis Scout" and "SkinSort" allow you to paste ingredient lists and check whether a product is fungal-safe. This can save you a lot of time when shopping for new skincare.
 
-![Simple checklist graphic showing fungal-safe vs. non-fungal-safe skincare ingredients side by side](/images/placeholder-fungal-acne-4.png)
+![Simple checklist graphic showing fungal-safe vs. non-fungal-safe skincare ingredients side by side](/images/fungal-acne-treatment-products.png)
 
 ## Prevention
 
