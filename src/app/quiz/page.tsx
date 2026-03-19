@@ -683,7 +683,7 @@ export default function QuizPage() {
           compared to CeraVe, Proactiv, Murad, and more.
         </p>
         <Link
-          href="/blog/best-acne-treatment-teens-2026-products-tested"
+          href="/blog/best-acne-skincare-products-teens-comprehensive-comparison"
           className="text-[#02838d] text-sm font-semibold hover:underline"
         >
           Read the full comparison →
