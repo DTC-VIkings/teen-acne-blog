@@ -2,17 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 
 export const runtime = "edge";
 
-interface GeminiAnalysis {
-  acneType: string;
-  severity: "mild" | "moderate" | "severe" | "critical";
-  severityScore: number; // 1-100
-  affectedAreas: string[];
-  inflammationLevel: "low" | "moderate" | "high";
-  scarringRisk: "low" | "moderate" | "high";
-  keyFindings: string[];
-  recommendation: string;
-}
-
 export async function POST(req: NextRequest) {
   try {
     const { image } = await req.json();
@@ -33,40 +22,25 @@ export async function POST(req: NextRequest) {
     }
 
     // Strip data URL prefix to get raw base64
-    const base64Data = image.replace(/^data:image\/\w+;base64,/, "");
-    const mimeType = image.match(/^data:(image\/\w+);/)?.[1] || "image/jpeg";
+    const base64Data = image.replace(/^data:image\/[^;]+;base64,/, "");
+    const mimeMatch = image.match(/^data:(image\/[^;]+);/);
+    const mimeType = mimeMatch ? mimeMatch[1] : "image/jpeg";
 
-    const prompt = `You are a dermatology AI assistant for a teen acne education website. Analyze this photo of skin and provide a detailed assessment.
+    const prompt = `You are a dermatology AI assistant. Analyze this photo of skin and provide a JSON assessment.
 
-IMPORTANT: This is for educational purposes only, not medical diagnosis. Be helpful but include a disclaimer.
+This is for educational purposes only, not medical diagnosis.
 
-Analyze the image and respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
-{
-  "acneType": "primary type of acne visible (e.g., 'Comedonal (blackheads & whiteheads)', 'Inflammatory (papules & pustules)', 'Cystic / Nodular', 'Hormonal pattern', 'Mixed comedonal & inflammatory', 'Mild comedonal')",
-  "severity": "mild or moderate or severe or critical",
-  "severityScore": 45,
-  "affectedAreas": ["list", "of", "visible", "affected", "areas"],
-  "inflammationLevel": "low or moderate or high",
-  "scarringRisk": "low or moderate or high",
-  "keyFindings": [
-    "Finding 1: describe what you see",
-    "Finding 2: describe another observation",
-    "Finding 3: one more observation"
-  ],
-  "recommendation": "A 1-2 sentence personalized recommendation focusing on the type of routine that would help, emphasizing gentle, natural approaches first."
-}
+Return a JSON object with these exact fields:
+- acneType: string (e.g. "Inflammatory (papules & pustules)", "Mixed comedonal & inflammatory", "Cystic / Nodular")
+- severity: string ("mild", "moderate", "severe", or "critical")
+- severityScore: number (1-100)
+- affectedAreas: array of strings (e.g. ["cheeks", "jawline", "forehead"])
+- inflammationLevel: string ("low", "moderate", or "high")
+- scarringRisk: string ("low", "moderate", or "high")
+- keyFindings: array of 3 strings describing what you observe
+- recommendation: string (1-2 sentences recommending gentle, natural approaches)
 
-If the image does not show skin or acne, return:
-{
-  "acneType": "Unable to analyze",
-  "severity": "mild",
-  "severityScore": 0,
-  "affectedAreas": [],
-  "inflammationLevel": "low",
-  "scarringRisk": "low",
-  "keyFindings": ["Could not identify skin or acne in this image. Please upload a clear, well-lit photo of the affected skin area."],
-  "recommendation": "Please try uploading a clearer photo of the affected skin area for analysis."
-}`;
+If the image doesn't show skin, set acneType to "Unable to analyze" and severityScore to 0.`;
 
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
@@ -89,7 +63,8 @@ If the image does not show skin or acne, return:
           ],
           generationConfig: {
             temperature: 0.3,
-            maxOutputTokens: 1024,
+            maxOutputTokens: 2048,
+            responseMimeType: "application/json",
           },
         }),
       }
@@ -97,38 +72,91 @@ If the image does not show skin or acne, return:
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error("Gemini API error:", errorText);
+      console.error("Gemini API error:", response.status, errorText);
       return NextResponse.json(
-        { error: "AI analysis failed" },
+        { error: `AI analysis failed (${response.status})` },
         { status: 500 }
       );
     }
 
     const data = await response.json();
-    const text =
-      data?.candidates?.[0]?.content?.parts?.[0]?.text || "";
 
-    // Parse JSON from response (handle potential markdown fences)
-    const jsonMatch = text.match(/\{[\s\S]*\}/);
+    // Gemini 2.5 Flash may return multiple parts (thinking + response)
+    // Find the part that contains JSON text
+    const candidates = data?.candidates || [];
+    let text = "";
+
+    for (const candidate of candidates) {
+      const parts = candidate?.content?.parts || [];
+      for (const part of parts) {
+        if (part.text) {
+          // Check if this part contains JSON (skip thinking parts)
+          const trimmed = part.text.trim();
+          if (trimmed.startsWith("{") || trimmed.startsWith("```")) {
+            text = trimmed;
+            break;
+          }
+          // If we haven't found JSON yet, keep this as fallback
+          if (!text) text = trimmed;
+        }
+      }
+      if (text) break;
+    }
+
+    if (!text) {
+      console.error("No text in Gemini response:", JSON.stringify(data).slice(0, 500));
+      return NextResponse.json(
+        { error: "AI returned empty response" },
+        { status: 500 }
+      );
+    }
+
+    // Extract JSON - handle markdown fences, raw JSON, etc.
+    let jsonStr = text;
+
+    // Remove markdown code fences if present
+    jsonStr = jsonStr.replace(/^```json?\s*/i, "").replace(/\s*```\s*$/, "");
+
+    // Find the JSON object
+    const jsonMatch = jsonStr.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
+      console.error("No JSON found in response:", text.slice(0, 300));
       return NextResponse.json(
         { error: "Could not parse AI response" },
         { status: 500 }
       );
     }
 
-    const analysis: GeminiAnalysis = JSON.parse(jsonMatch[0]);
+    const analysis = JSON.parse(jsonMatch[0]);
+
+    // Validate required fields exist
+    if (!analysis.acneType || analysis.severityScore === undefined) {
+      console.error("Missing fields in analysis:", analysis);
+      return NextResponse.json(
+        { error: "Incomplete AI analysis" },
+        { status: 500 }
+      );
+    }
 
     return NextResponse.json({
       success: true,
-      analysis,
+      analysis: {
+        acneType: analysis.acneType || "Unknown",
+        severity: analysis.severity || "moderate",
+        severityScore: Number(analysis.severityScore) || 50,
+        affectedAreas: analysis.affectedAreas || [],
+        inflammationLevel: analysis.inflammationLevel || "moderate",
+        scarringRisk: analysis.scarringRisk || "moderate",
+        keyFindings: analysis.keyFindings || [],
+        recommendation: analysis.recommendation || "",
+      },
       disclaimer:
-        "This AI analysis is for educational purposes only and is not a substitute for professional medical advice. Please consult a dermatologist for an accurate diagnosis.",
+        "This AI analysis is for educational purposes only and is not a substitute for professional medical advice.",
     });
   } catch (error) {
     console.error("Analyze skin error:", error);
     return NextResponse.json(
-      { error: "An unexpected error occurred" },
+      { error: "An unexpected error occurred during analysis" },
       { status: 500 }
     );
   }
