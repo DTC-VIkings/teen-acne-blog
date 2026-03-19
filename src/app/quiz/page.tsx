@@ -478,17 +478,41 @@ export default function QuizPage() {
 
   const ageText = answers[10] || "15";
 
+  // Resize image to max 800px and compress to JPEG for API
+  const resizeImage = (dataUrl: string, maxSize: number): Promise<string> => {
+    return new Promise((resolve) => {
+      const img = new window.Image();
+      img.onload = () => {
+        const canvas = document.createElement("canvas");
+        let w = img.width;
+        let h = img.height;
+        if (w > maxSize || h > maxSize) {
+          if (w > h) { h = (h / w) * maxSize; w = maxSize; }
+          else { w = (w / h) * maxSize; h = maxSize; }
+        }
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext("2d")!;
+        ctx.drawImage(img, 0, 0, w, h);
+        resolve(canvas.toDataURL("image/jpeg", 0.8));
+      };
+      img.src = dataUrl;
+    });
+  };
+
   // Photo upload handler
   const handlePhotoUpload = useCallback(
     async (e: React.ChangeEvent<HTMLInputElement>) => {
       const file = e.target.files?.[0];
       if (!file) return;
 
-      // Create preview
       const reader = new FileReader();
       reader.onload = async (evt) => {
-        const base64 = evt.target?.result as string;
-        setPhotoPreview(base64);
+        const rawBase64 = evt.target?.result as string;
+
+        // Resize for API (keep original for preview/overlay)
+        const resized = await resizeImage(rawBase64, 800);
+        setPhotoPreview(rawBase64);
         setAnalyzing(true);
         setAnalyzeError(null);
 
@@ -496,10 +520,13 @@ export default function QuizPage() {
           const res = await fetch("/api/analyze-skin", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ image: base64 }),
+            body: JSON.stringify({ image: resized }),
           });
 
-          if (!res.ok) throw new Error("Analysis failed");
+          if (!res.ok) {
+            const errData = await res.json().catch(() => ({}));
+            throw new Error(errData.error || `Server error: ${res.status}`);
+          }
 
           const data = await res.json();
           if (data.success && data.analysis) {
@@ -508,6 +535,7 @@ export default function QuizPage() {
             throw new Error(data.error || "Unknown error");
           }
         } catch (err) {
+          console.error("Analysis error:", err);
           setAnalyzeError(
             err instanceof Error ? err.message : "Analysis failed. You can continue without it."
           );
