@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import { SiteChrome } from "./SiteChrome";
+import { ConvergePixel } from "./ConvergePixel";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} antialiased`}>
+        <ConvergePixel />
         <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
