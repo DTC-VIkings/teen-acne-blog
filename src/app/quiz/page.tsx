@@ -1518,7 +1518,7 @@ export default function QuizPage() {
     <div className="min-h-screen bg-[#f7f3ee] flex flex-col">
       {/* Header */}
       <div className="bg-black">
-        <div className="max-w-[800px] mx-auto px-5 h-[56px] flex items-center justify-center">
+        <div className="w-full h-[56px] flex items-center justify-center">
           <Link href="/">
             <Image
               src="/logo.svg"
