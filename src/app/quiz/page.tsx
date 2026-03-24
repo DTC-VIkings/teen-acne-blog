@@ -62,10 +62,10 @@ const steps: Step[] = [
     eyebrow: "LET'S FIND YOUR TEEN'S PERFECT ROUTINE",
     question: "Who is this quiz for?",
     options: [
-      { label: "My son", image: "/images/quiz-teen-boy.jpg" },
-      { label: "My daughter", image: "/images/quiz-teen-girl.jpg" },
-      { label: "Myself — male", image: "/images/quiz-adult-man.jpg" },
-      { label: "Myself — female", image: "/images/quiz-adult-woman.jpg" },
+      { label: "My son", image: "/images/teen-boy-portrait.png" },
+      { label: "My daughter", image: "/images/teen-girl-portrait.png" },
+      { label: "Myself — male", image: "/images/adult-man-portrait.png" },
+      { label: "Myself — female", image: "/images/adult-woman-portrait.png" },
     ],
   },
   // 1 - Photo upload (AI analysis) — MOVED TO STEP 2
