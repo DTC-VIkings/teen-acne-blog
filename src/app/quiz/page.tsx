@@ -8,6 +8,7 @@ import Link from "next/link";
 type StepType =
   | "single"
   | "single-image"
+  | "single-portrait"
   | "multi"
   | "multi-image"
   | "input"
@@ -32,6 +33,7 @@ interface AiAnalysis {
 interface Option {
   label: string;
   image?: string;
+  imagePosition?: string; // CSS object-position value
 }
 
 interface Step {
@@ -56,14 +58,14 @@ const STEP_DIAGNOSIS = 10;
 const steps: Step[] = [
   // 0 - Who is this for
   {
-    type: "single-image",
+    type: "single-portrait",
     eyebrow: "LET'S FIND YOUR TEEN'S PERFECT ROUTINE",
     question: "Who is this quiz for?",
     options: [
-      { label: "My son", image: "/images/quiz-face-1.jpg" },
-      { label: "My daughter", image: "/images/quiz-face-1.jpg" },
-      { label: "Myself — male", image: "/images/quiz-face-3.jpg" },
-      { label: "Myself — female", image: "/images/quiz-face-3.jpg" },
+      { label: "My son", image: "/images/quiz-teen-boy.jpg" },
+      { label: "My daughter", image: "/images/quiz-teen-girl.jpg" },
+      { label: "Myself — male", image: "/images/quiz-adult-man.jpg" },
+      { label: "Myself — female", image: "/images/quiz-adult-woman.jpg" },
     ],
   },
   // 1 - Photo upload (AI analysis) — MOVED TO STEP 2
@@ -1346,6 +1348,45 @@ export default function QuizPage() {
             >
               CONTINUE
             </button>
+          </div>
+        );
+      case "single-portrait":
+        return (
+          <div className="text-center max-w-lg mx-auto">
+            {step.eyebrow && (
+              <p className="text-xs font-bold text-[#02838d] tracking-wider mb-2">
+                {step.eyebrow}
+              </p>
+            )}
+            <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-2">
+              {step.question}
+            </h2>
+            {step.subtitle && (
+              <p className="text-sm text-[#767474] mb-6">{step.subtitle}</p>
+            )}
+            <div className="flex flex-col gap-3">
+              {step.options?.map((opt) => (
+                <button
+                  key={opt.label}
+                  onClick={() => advance(opt.label)}
+                  className="w-full flex items-center gap-4 px-4 py-3 rounded-xl border-2 border-gray-200 bg-white hover:border-[#02838d] hover:shadow-md transition-all"
+                >
+                  {opt.image && (
+                    <div className="w-14 h-14 rounded-full overflow-hidden shrink-0 border-2 border-gray-100 relative">
+                      <Image
+                        src={opt.image}
+                        alt={opt.label}
+                        fill
+                        className="object-cover object-top"
+                      />
+                    </div>
+                  )}
+                  <span className="text-[15px] font-semibold text-[#231f20] text-left">
+                    {opt.label}
+                  </span>
+                </button>
+              ))}
+            </div>
           </div>
         );
       case "single-image":
