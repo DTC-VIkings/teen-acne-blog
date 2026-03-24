@@ -56,14 +56,14 @@ const STEP_DIAGNOSIS = 10;
 const steps: Step[] = [
   // 0 - Who is this for
   {
-    type: "single",
+    type: "single-image",
     eyebrow: "LET'S FIND YOUR TEEN'S PERFECT ROUTINE",
     question: "Who is this quiz for?",
     options: [
-      { label: "My son" },
-      { label: "My daughter" },
-      { label: "Myself (I'm a teen)" },
-      { label: "Myself (I'm an adult)" },
+      { label: "My son", image: "/images/quiz-face-1.jpg" },
+      { label: "My daughter", image: "/images/quiz-face-1.jpg" },
+      { label: "Myself — male", image: "/images/quiz-face-3.jpg" },
+      { label: "Myself — female", image: "/images/quiz-face-3.jpg" },
     ],
   },
   // 1 - Photo upload (AI analysis) — MOVED TO STEP 2
@@ -72,14 +72,14 @@ const steps: Step[] = [
   },
   // 2 - Skin severity visual (skipped if AI)
   {
-    type: "single",
+    type: "single-image",
     question: "Which best describes the current skin?",
     subtitle: "Select the closest match",
     options: [
-      { label: "Occasional spots" },
-      { label: "Regular breakouts" },
-      { label: "Severe acne & redness" },
-      { label: "Cystic & painful" },
+      { label: "Occasional spots", image: "/images/quiz-mild.jpg" },
+      { label: "Regular breakouts", image: "/images/quiz-moderate.jpg" },
+      { label: "Severe acne & redness", image: "/images/quiz-severe.jpg" },
+      { label: "Cystic & painful", image: "/images/quiz-cystic.jpg" },
     ],
   },
   // 3 - Dream skin (skipped if AI)
@@ -95,27 +95,27 @@ const steps: Step[] = [
   },
   // 4 - Main concerns (skipped if AI)
   {
-    type: "multi",
+    type: "multi-image",
     eyebrow: "SELECT ALL THAT APPLY",
     question: "What are the main skin concerns?",
     subtitle: "Choose as many as you like",
     options: [
-      { label: "Teen breakouts" },
-      { label: "Persistent acne" },
-      { label: "Inflamed & red skin" },
-      { label: "Hormonal / cystic acne" },
-      { label: "Dark marks & scars" },
-      { label: "Confidence issues" },
+      { label: "Teen breakouts", image: "/images/quiz-teen-acne.jpg" },
+      { label: "Persistent acne", image: "/images/quiz-persistent.jpg" },
+      { label: "Inflamed & red skin", image: "/images/quiz-inflamed.jpg" },
+      { label: "Hormonal / cystic acne", image: "/images/quiz-hormonal.jpg" },
+      { label: "Dark marks & scars", image: "/images/quiz-dark-marks.jpg" },
+      { label: "Confidence issues", image: "/images/quiz-confidence.jpg" },
     ],
   },
   // 5 - Severity daily (skipped if AI)
   {
-    type: "single",
+    type: "single-image",
     question: "How severe is the acne on most days?",
     options: [
-      { label: "Mild — a few spots here and there" },
-      { label: "Moderate — regular breakouts that are bothersome" },
-      { label: "Severe — painful, inflamed acne that affects daily life" },
+      { label: "Mild — a few spots here and there", image: "/images/quiz-mild.jpg" },
+      { label: "Moderate — regular breakouts that are bothersome", image: "/images/quiz-moderate.jpg" },
+      { label: "Severe — painful, inflamed acne that affects daily life", image: "/images/quiz-severe.jpg" },
     ],
   },
   // 6 - Skin tone (skipped if AI)
@@ -1336,6 +1336,100 @@ export default function QuizPage() {
                   }`}
                 >
                   {opt.label}
+                </button>
+              ))}
+            </div>
+            <button
+              onClick={handleMultiContinue}
+              disabled={multiSelected.length === 0}
+              className="w-full bg-[#02838d] disabled:bg-gray-300 text-white font-bold py-4 rounded-lg transition-colors text-base"
+            >
+              CONTINUE
+            </button>
+          </div>
+        );
+      case "single-image":
+        return (
+          <div className="text-center max-w-2xl mx-auto">
+            {step.eyebrow && (
+              <p className="text-xs font-bold text-[#02838d] tracking-wider mb-2">
+                {step.eyebrow}
+              </p>
+            )}
+            <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-2">
+              {step.question}
+            </h2>
+            {step.subtitle && (
+              <p className="text-sm text-[#767474] mb-6">{step.subtitle}</p>
+            )}
+            <div className="grid grid-cols-2 gap-3">
+              {step.options?.map((opt) => (
+                <button
+                  key={opt.label}
+                  onClick={() => advance(opt.label)}
+                  className="group rounded-xl border-2 border-gray-200 bg-white hover:border-[#02838d] hover:shadow-md transition-all overflow-hidden"
+                >
+                  {opt.image && (
+                    <div className="aspect-square relative overflow-hidden">
+                      <Image
+                        src={opt.image}
+                        alt={opt.label}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                  )}
+                  <div className="px-3 py-3 text-sm font-semibold text-[#231f20] text-center">
+                    {opt.label}
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+        );
+      case "multi-image":
+        return (
+          <div className="text-center max-w-2xl mx-auto">
+            {step.eyebrow && (
+              <p className="text-xs font-bold text-[#02838d] tracking-wider mb-2">
+                {step.eyebrow}
+              </p>
+            )}
+            <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-2">
+              {step.question}
+            </h2>
+            {step.subtitle && (
+              <p className="text-sm text-[#767474] mb-6">{step.subtitle}</p>
+            )}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
+              {step.options?.map((opt) => (
+                <button
+                  key={opt.label}
+                  onClick={() => toggleMulti(opt.label)}
+                  className={`group rounded-xl border-2 transition-all overflow-hidden ${
+                    multiSelected.includes(opt.label)
+                      ? "border-[#02838d] shadow-md ring-2 ring-[#02838d]/20"
+                      : "border-gray-200 bg-white hover:border-gray-300"
+                  }`}
+                >
+                  {opt.image && (
+                    <div className="aspect-square relative overflow-hidden">
+                      <Image
+                        src={opt.image}
+                        alt={opt.label}
+                        fill
+                        className="object-cover"
+                      />
+                      {multiSelected.includes(opt.label) && (
+                        <div className="absolute top-2 right-2 w-6 h-6 bg-[#02838d] rounded-full flex items-center justify-center">
+                          <span className="text-white text-xs font-bold">✓</span>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                  <div className="px-2 py-2.5 text-xs font-semibold text-[#231f20] text-center leading-tight">
+                    {opt.label}
+                  </div>
                 </button>
               ))}
             </div>
