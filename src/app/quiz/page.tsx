@@ -427,7 +427,14 @@ export default function QuizPage() {
   }, [aiAnalysis, photoPreview]);
 
   const step = steps[current];
-  const progress = Math.round((current / (steps.length - 1)) * 100);
+
+  // Fix #5: Smooth progress bar — when AI skips steps 2-7, calculate
+  // progress based on the effective step count instead of raw index
+  const effectiveSteps = aiAnalysis ? steps.length - 6 : steps.length; // 6 steps skipped with AI
+  const effectiveIndex = aiAnalysis && current >= STEP_INTERSTITIAL1
+    ? current - 6 // offset for skipped steps
+    : current;
+  const progress = Math.round((effectiveIndex / (effectiveSteps - 1)) * 100);
 
   const advance = useCallback(
     (answer?: string) => {
@@ -447,6 +454,19 @@ export default function QuizPage() {
     [current, aiAnalysis]
   );
 
+  // Fix #2: Back button navigation
+  const goBack = useCallback(() => {
+    if (current <= 0) return;
+    // If AI analysis happened and we're at interstitial1, go back to photo step
+    if (current === STEP_INTERSTITIAL1 && aiAnalysis) {
+      setCurrent(STEP_PHOTO);
+    } else {
+      setCurrent((prev) => prev - 1);
+    }
+    setMultiSelected([]);
+    setInputValue("");
+  }, [current, aiAnalysis]);
+
   const handleMultiContinue = useCallback(() => {
     if (multiSelected.length === 0) return;
     setAnswers((prev) => ({ ...prev, [current]: multiSelected }));
@@ -456,6 +476,11 @@ export default function QuizPage() {
 
   const handleInputContinue = useCallback(() => {
     if (!inputValue.trim()) return;
+    // Fix #1: Validate age input (step 9 is the age question)
+    if (current === 9) {
+      const age = parseInt(inputValue, 10);
+      if (isNaN(age) || age < 8 || age > 25) return; // silently reject invalid ages
+    }
     setAnswers((prev) => ({ ...prev, [current]: inputValue }));
     setInputValue("");
     setCurrent((prev) => prev + 1);
@@ -514,6 +539,20 @@ export default function QuizPage() {
       const file = e.target.files?.[0];
       if (!file) return;
 
+      // Fix #4: File size and type validation
+      const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+      const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp", "image/heic", "image/heif"];
+      if (file.size > MAX_FILE_SIZE) {
+        setAnalyzeError("That file is too large. Please upload a photo under 10MB.");
+        setPhotoPreview(null);
+        return;
+      }
+      if (!ALLOWED_TYPES.includes(file.type) && !file.name.match(/\.(jpg|jpeg|png|webp|heic|heif)$/i)) {
+        setAnalyzeError("Please upload a photo (JPG, PNG, or WebP).");
+        setPhotoPreview(null);
+        return;
+      }
+
       const reader = new FileReader();
       reader.onload = async (evt) => {
         const rawBase64 = evt.target?.result as string;
@@ -524,11 +563,16 @@ export default function QuizPage() {
         setAnalyzing(true);
         setAnalyzeError(null);
 
+        // Fix #6: Timeout for AI analysis (20 seconds)
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 20000);
+
         try {
           const res = await fetch("/api/analyze-skin", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ image: resized }),
+            signal: controller.signal,
           });
 
           if (!res.ok) {
@@ -537,6 +581,7 @@ export default function QuizPage() {
           }
 
           const data = await res.json();
+          clearTimeout(timeout);
           if (data.success && data.analysis) {
             const analysis = data.analysis;
             // Check if the AI couldn't detect acne
@@ -548,7 +593,7 @@ export default function QuizPage() {
               setAnalyzing(false);
               setPhotoPreview(null);
               setAnalyzeError(
-                "We couldn't detect acne in this photo. Please upload a clear, well-lit close-up photo of the affected skin area — ideally showing the face, back, or chest where breakouts are visible."
+                "We couldn't detect acne in this photo."
               );
               return;
             }
@@ -563,11 +608,17 @@ export default function QuizPage() {
             throw new Error(data.error || "Unknown error");
           }
         } catch (err) {
+          clearTimeout(timeout);
           console.error("Analysis error:", err);
-          setAnalyzeError(
-            err instanceof Error ? err.message : "Analysis failed. You can continue without it."
-          );
+          if (err instanceof DOMException && err.name === "AbortError") {
+            setAnalyzeError("The analysis took too long. You can try again or fill out the quiz manually.");
+          } else {
+            setAnalyzeError(
+              err instanceof Error ? err.message : "Analysis failed. You can try again or continue manually."
+            );
+          }
         } finally {
+          clearTimeout(timeout);
           setAnalyzing(false);
         }
       };
@@ -1317,7 +1368,12 @@ export default function QuizPage() {
         return renderTimeline();
       case "result":
         return renderResult();
-      case "input":
+      case "input": {
+        const isAgeStep = current === 9;
+        const ageVal = isAgeStep ? parseInt(inputValue, 10) : NaN;
+        const ageInvalid = isAgeStep && inputValue.trim() !== "" && (isNaN(ageVal) || ageVal < 8 || ageVal > 25);
+        const inputDisabled = !inputValue.trim() || (isAgeStep && (isNaN(ageVal) || ageVal < 8 || ageVal > 25));
+
         return (
           <div className="text-center max-w-md mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-2">
@@ -1331,18 +1387,29 @@ export default function QuizPage() {
               placeholder={step.inputPlaceholder}
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              className="w-64 mx-auto block border-2 border-[#02838d] rounded-lg px-4 py-3 text-center text-lg focus:outline-none focus:ring-2 focus:ring-[#02838d]/30 mb-4"
+              min={isAgeStep ? 8 : undefined}
+              max={isAgeStep ? 25 : undefined}
+              className={`w-64 mx-auto block border-2 rounded-lg px-4 py-3 text-center text-lg focus:outline-none focus:ring-2 mb-1 ${
+                ageInvalid
+                  ? "border-red-400 focus:ring-red-200"
+                  : "border-[#02838d] focus:ring-[#02838d]/30"
+              }`}
               onKeyDown={(e) => e.key === "Enter" && handleInputContinue()}
             />
+            {ageInvalid && (
+              <p className="text-xs text-red-500 mb-3">Please enter an age between 8 and 25</p>
+            )}
+            {!ageInvalid && <div className="mb-3" />}
             <button
               onClick={handleInputContinue}
-              disabled={!inputValue.trim()}
+              disabled={inputDisabled}
               className="w-64 mx-auto block bg-[#02838d] disabled:bg-gray-300 text-white font-bold py-3 rounded-lg transition-colors"
             >
               CONTINUE
             </button>
           </div>
         );
+      }
       case "multi":
         return (
           <div className="text-center max-w-lg mx-auto">
@@ -1563,12 +1630,26 @@ export default function QuizPage() {
         </div>
       </div>
 
-      {/* Progress bar */}
-      <div className="w-full h-1.5 bg-gray-200">
-        <div
-          className="h-full bg-[#02838d] transition-all duration-500 ease-out"
-          style={{ width: `${progress}%` }}
-        />
+      {/* Progress bar + back button */}
+      <div className="relative">
+        <div className="w-full h-1.5 bg-gray-200">
+          <div
+            className="h-full bg-[#02838d] transition-all duration-500 ease-out"
+            style={{ width: `${progress}%` }}
+          />
+        </div>
+        {current > 0 && step.type !== "result" && (
+          <button
+            onClick={goBack}
+            className="absolute left-3 top-4 flex items-center gap-1 text-sm text-[#767474] hover:text-[#231f20] transition-colors"
+            aria-label="Go back"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+            Back
+          </button>
+        )}
       </div>
 
       {/* Quiz body */}
