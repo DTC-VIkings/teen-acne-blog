@@ -1224,23 +1224,37 @@ export default function QuizPage() {
           )}
 
           {analyzeError && (
-            <div className="mt-4 bg-red-50 border border-red-200 rounded-lg p-4 text-left">
-              <div className="flex items-start gap-2">
-                <span className="text-lg shrink-0">⚠️</span>
-                <div>
-                  <p className="text-sm text-red-700 font-semibold mb-1">Photo could not be analyzed</p>
-                  <p className="text-sm text-red-600">{analyzeError}</p>
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4">
+              <div className="bg-white rounded-2xl shadow-xl max-w-sm w-full p-6 text-center">
+                <div className="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl">📷</span>
                 </div>
+                <h3 className="text-lg font-bold text-[#231f20] mb-2">
+                  We couldn&apos;t detect acne
+                </h3>
+                <p className="text-sm text-[#767474] mb-6 leading-relaxed">
+                  Our AI wasn&apos;t able to identify acne in that photo. This can happen if the lighting is low, the photo is blurry, or the skin is clear.
+                </p>
+                <button
+                  onClick={() => {
+                    setPhotoPreview(null);
+                    setAnalyzeError(null);
+                  }}
+                  className="w-full bg-[#02838d] hover:bg-[#026a73] text-white font-bold py-3.5 rounded-lg transition-colors text-sm mb-3"
+                >
+                  📸 Try a Different Photo
+                </button>
+                <button
+                  onClick={() => {
+                    setPhotoPreview(null);
+                    setAnalyzeError(null);
+                    setCurrent((prev) => prev + 1);
+                  }}
+                  className="w-full bg-white border-2 border-gray-200 hover:border-[#02838d] text-[#231f20] font-semibold py-3.5 rounded-lg transition-colors text-sm"
+                >
+                  Fill Out Manually Instead
+                </button>
               </div>
-              <button
-                onClick={() => {
-                  setPhotoPreview(null);
-                  setAnalyzeError(null);
-                }}
-                className="mt-3 w-full bg-white border border-red-200 text-red-700 font-semibold text-sm py-2.5 rounded-lg hover:bg-red-50 transition-colors"
-              >
-                📸 Try a different photo
-              </button>
             </div>
           )}
         </div>
