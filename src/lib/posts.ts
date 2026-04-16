@@ -50,6 +50,7 @@ function parsePostData(
 export function getAllPosts(): Omit<Post, "content">[] {
   if (!fs.existsSync(postsDirectory)) return [];
   const fileNames = fs.readdirSync(postsDirectory);
+  const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
   const posts = fileNames
     .filter((name) => name.endsWith(".md") && !name.startsWith("_"))
     .map((fileName) => {
@@ -58,7 +59,8 @@ export function getAllPosts(): Omit<Post, "content">[] {
       const fileContents = fs.readFileSync(fullPath, "utf8");
       const { data } = matter(fileContents);
       return parsePostData(slug, data);
-    });
+    })
+    .filter((post) => post.date <= today); // Hide future-dated posts
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
