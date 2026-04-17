@@ -2,6 +2,7 @@
 title: "Salicylic Acid for Acne: Everything Teens Need to Know"
 date: "2026-05-04"
 category: "Acne Treatments"
+featuredImage: "/images/grid-salicylic-acid-complete-guide.png"
 description: "Salicylic acid is the go-to for blackheads and body acne. Here's how it works, what concentration to use, and why it won't fix cystic acne on its own."
 ---
 

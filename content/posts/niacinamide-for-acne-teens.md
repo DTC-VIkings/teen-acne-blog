@@ -4,6 +4,7 @@ date: "2026-04-29"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
+featuredImage: "/images/grid-niacinamide-for-acne-teens.png"
 description: "Niacinamide won't cure acne on its own, but it might be the single best supporting ingredient you can add to your routine. Here's how to use it."
 ---
 

@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/manuka-vs-regular-honey.jpg"
+featuredImage: "/images/grid-acne-and-honey-diy.png"
 quickLinks:
   - "What honey actually does to skin"
   - "Manuka vs regular honey"

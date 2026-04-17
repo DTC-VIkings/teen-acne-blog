@@ -2,6 +2,7 @@
 title: "Do Acne Supplements Actually Work? Zinc, Vitamin D, and the Evidence"
 date: 2026-04-26
 category: "Acne Treatments"
+featuredImage: "/images/grid-best-acne-supplements-teens.png"
 description: "Zinc has decent research behind it. Vitamin D is promising if you're deficient. Most other acne supplements are overhyped. Here's what the studies actually say."
 tags: ["acne supplements", "zinc for acne", "vitamin D acne", "omega-3", "teen acne treatment"]
 ---

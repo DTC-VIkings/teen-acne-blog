@@ -4,6 +4,7 @@ date: "2026-05-17"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
+featuredImage: "/images/grid-tretinoin-vs-adapalene.png"
 description: "Adapalene and tretinoin are both retinoids, but they're not the same. Here's an honest comparison of what each one does, which one you should probably start with, and when it makes sense to switch."
 keyTakeaways:
   - "**Start with adapalene if you're new to retinoids.** It's available over the counter, causes less irritation, and works well for most mild-to-moderate acne."

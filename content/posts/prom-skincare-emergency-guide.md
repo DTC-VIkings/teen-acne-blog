@@ -2,6 +2,7 @@
 title: "Prom Skin Emergency: What to Do When You Break Out Before a Big Event"
 date: "2026-05-06"
 category: "Guides"
+featuredImage: "/images/grid-prom-skincare-emergency-guide.png"
 description: "A week-by-week plan for dealing with a breakout before prom or any big event, from spot treatments to concealer tricks to managing the panic."
 ---
 

@@ -2,6 +2,7 @@
 title: "10 Acne Myths Teenagers Still Believe (And What Science Says)"
 date: 2026-04-23
 category: "Dealing with Acne"
+featuredImage: "/images/grid-acne-myths-teens-still-believe.png"
 description: "From 'dirty skin causes acne' to 'expensive products work better,' here are 10 acne myths that refuse to die and what the actual research says about each one."
 ---
 

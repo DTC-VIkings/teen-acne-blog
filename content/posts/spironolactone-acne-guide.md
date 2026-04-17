@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-girl-doctor-medication.jpg"
+featuredImage: "/images/grid-spironolactone-acne-guide.png"
 quickLinks:
   - "What spironolactone actually is"
   - "How it works for acne"

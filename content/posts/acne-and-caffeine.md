@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-holding-coffee.jpg"
+featuredImage: "/images/grid-acne-and-caffeine.png"
 quickLinks:
   - "What the research actually says"
   - "The cortisol angle"

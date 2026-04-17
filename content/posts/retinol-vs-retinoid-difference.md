@@ -2,6 +2,7 @@
 title: "Retinol vs. Retinoid: What's the Difference and Which Do Teens Need?"
 date: "2026-05-04"
 category: "Acne Treatments"
+featuredImage: "/images/grid-retinol-vs-retinoid-difference.png"
 description: "Retinol and retinoid get used interchangeably, but they're not the same thing. Here's what actually matters for teen acne, which one to start with, and what to avoid."
 ---
 

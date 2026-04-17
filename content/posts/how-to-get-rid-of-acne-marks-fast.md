@@ -2,6 +2,7 @@
 title: "How to Fade Acne Marks and Dark Spots: Realistic Timelines"
 date: "2026-04-21"
 category: "Guides"
+featuredImage: "/images/grid-how-to-get-rid-of-acne-marks-fast.png"
 description: "Acne marks and dark spots fade, but it takes months. Here's what actually speeds up the process, what doesn't, and when you're dealing with real scars instead."
 ---
 

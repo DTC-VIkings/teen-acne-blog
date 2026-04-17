@@ -2,6 +2,7 @@
 title: "Benzoyl Peroxide: The Complete Guide for Teens"
 date: "2026-05-04"
 category: "Acne Treatments"
+featuredImage: "/images/grid-benzoyl-peroxide-complete-guide.png"
 description: "Benzoyl peroxide is one of the most effective acne treatments available, and bacteria can't build resistance to it. Here's how it works, which strength to use, and how to avoid bleaching everything you own."
 ---
 

@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-psychiatrist-talk.jpg"
+featuredImage: "/images/grid-acne-and-anxiety-medication.png"
 quickLinks:
   - "SSRIs and skin: mostly neutral"
   - "Lithium: a known acne trigger"

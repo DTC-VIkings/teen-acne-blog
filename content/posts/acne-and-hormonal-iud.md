@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-gynecologist-talk.jpg"
+featuredImage: "/images/grid-acne-and-hormonal-iud.png"
 quickLinks:
   - "Why hormonal IUDs can cause acne"
   - "The 19-nortestosterone problem"

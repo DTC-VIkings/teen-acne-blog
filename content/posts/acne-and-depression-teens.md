@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-withdrawn-bed.jpg"
+featuredImage: "/images/grid-acne-and-depression-teens.png"
 quickLinks:
   - "The numbers are worse than most people think"
   - "Why acne hits harder during adolescence"

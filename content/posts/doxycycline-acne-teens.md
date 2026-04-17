@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/prescription-pill-bottle.jpg"
+featuredImage: "/images/grid-doxycycline-acne-teens.png"
 quickLinks:
   - "How doxycycline actually works (it's not just an antibiotic)"
   - "The standard course"

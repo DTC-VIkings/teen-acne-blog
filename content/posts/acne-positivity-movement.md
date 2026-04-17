@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/acne-positivity-confident.jpg"
+featuredImage: "/images/grid-acne-positivity-movement.png"
 quickLinks:
   - "What acne positivity got right"
   - "Where it gets complicated"

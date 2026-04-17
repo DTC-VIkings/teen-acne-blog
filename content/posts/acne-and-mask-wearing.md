@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "Face masks are still part of life for sports, medical settings, and sick days. Here's how to prevent maskne and tell the difference between acne and perioral dermatitis."
-featuredImage: "/images/sports-mask-teen.jpg"
+featuredImage: "/images/grid-acne-and-mask-wearing.png"
 keyTakeaways:
   - "**Mask-related acne is caused by friction, humidity, and bacteria buildup.** The warm, moist environment under a mask is ideal for clogged pores and bacterial growth."
   - "**Material matters -- cotton and silk breathe better than polyester.** If you have a choice of reusable masks, pick breathable natural fibers and wash them after every single use."

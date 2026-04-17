@@ -2,6 +2,7 @@
 title: "Acne at 16–18: Why You're Still Breaking Out and What to Try Next"
 date: 2026-04-23
 category: "Parents"
+featuredImage: "/images/grid-acne-at-16-18-still-breaking-out.png"
 description: "When acne persists at 16-18 while peers are clearing up, what's driving it hormonally, when to consider prescription treatments including isotretinoin, and how to prepare for college skincare independence."
 ---
 

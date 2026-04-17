@@ -2,6 +2,7 @@
 title: "How to Build a Skincare Routine from Scratch: A Teen's Step-by-Step Guide"
 date: "2026-05-05"
 category: "Guides"
+featuredImage: "/images/grid-how-to-build-skincare-routine.png"
 description: "A no-nonsense guide to building your first skincare routine. Covers the foundational cleanser-treatment-moisturizer-SPF framework, how to add products one at a time, patch testing, budget breakdown, and why patience matters more than products."
 ---
 

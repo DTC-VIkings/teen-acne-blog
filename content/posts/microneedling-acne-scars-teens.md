@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Rachel Torres"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/microneedling-device-closeup.jpg"
+featuredImage: "/images/grid-microneedling-acne-scars-teens.png"
 quickLinks:
   - "How microneedling works"
   - "Professional microneedling vs at-home dermarollers"

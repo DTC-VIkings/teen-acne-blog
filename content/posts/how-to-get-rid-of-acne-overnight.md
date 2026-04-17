@@ -2,6 +2,7 @@
 title: "Can You Get Rid of a Pimple Overnight? Realistic Expectations"
 date: 2026-04-22
 category: "Guides"
+featuredImage: "/images/grid-how-to-get-rid-of-acne-overnight.png"
 description: "The honest truth about overnight pimple fixes, what actually reduces redness and swelling before a big event, and the home remedies you should skip entirely."
 ---
 

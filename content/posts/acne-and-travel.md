@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/travel-skincare-kit.jpg"
+featuredImage: "/images/grid-acne-and-travel.png"
 quickLinks:
   - "The minimal travel routine"
   - "Travel-size products: what to bring and what to skip"

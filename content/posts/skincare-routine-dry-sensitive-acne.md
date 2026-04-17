@@ -2,6 +2,7 @@
 title: "Skincare Routine for Dry or Sensitive Skin with Acne"
 date: "2026-04-17"
 category: "Guides"
+featuredImage: "/images/grid-skincare-routine-dry-sensitive-acne.png"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, Board-Certified Dermatologist"
 description: "How to treat acne when your skin is dry, sensitive, or both. A barrier-first skincare routine that clears breakouts without wrecking your face."

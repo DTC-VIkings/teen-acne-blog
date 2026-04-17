@@ -2,6 +2,7 @@
 title: "The Acne Diet: What to Eat (and Avoid) for Clearer Skin"
 date: "2026-04-30"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-acne-diet-what-to-eat.png"
 description: "How food actually affects acne, which foods help, which ones make breakouts worse, and why you shouldn't wreck your relationship with food trying to fix your skin."
 ---
 

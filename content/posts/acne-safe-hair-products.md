@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/hair-products-forehead-acne.jpg"
+featuredImage: "/images/grid-acne-safe-hair-products.png"
 quickLinks:
   - "Pomade acne is a real dermatological term"
   - "The ingredients causing problems"

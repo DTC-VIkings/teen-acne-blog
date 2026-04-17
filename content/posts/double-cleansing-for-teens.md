@@ -2,6 +2,7 @@
 title: "Double Cleansing for Teens: Is It Worth the Extra Step?"
 date: "2026-05-03"
 category: "Guides"
+featuredImage: "/images/grid-double-cleansing-for-teens.png"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 description: "Double cleansing has become a skincare staple, but most teens don't need to do it every single night. Here's when it actually helps, when to skip it, and how to do it right."

@@ -2,6 +2,7 @@
 title: "What Actually Causes Acne? A Simple Explanation That Makes Sense"
 date: 2026-04-28
 category: "Types of Acne"
+featuredImage: "/images/grid-what-causes-acne-simple-explanation.png"
 description: "The real reasons you're breaking out, explained without the confusing medical jargon. Four factors, one clear picture."
 slug: "what-causes-acne-simple-explanation"
 ---

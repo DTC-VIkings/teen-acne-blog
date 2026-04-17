@@ -2,6 +2,7 @@
 title: "Fungal Acne vs. Regular Acne: How to Tell the Difference"
 date: 2026-05-02
 category: "Types of Acne"
+featuredImage: "/images/grid-fungal-acne-vs-regular-acne.png"
 description: "Those tiny uniform bumps on your forehead might not be acne at all. Fungal acne is a yeast overgrowth that looks similar but needs completely different treatment."
 tags: ["fungal acne", "pityrosporum folliculitis", "types of acne", "acne diagnosis", "teen skincare"]
 ---

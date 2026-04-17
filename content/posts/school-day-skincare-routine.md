@@ -2,6 +2,7 @@
 title: "The School-Day Skincare Routine: Quick, Easy, Actually Works"
 date: 2026-04-27
 category: "Guides"
+featuredImage: "/images/grid-school-day-skincare-routine.png"
 description: "A realistic skincare routine for school days that takes 3 minutes in the morning, fits in your backpack, and actually treats acne when you get home."
 tags: ["skincare routine", "school", "morning routine", "teen skincare", "quick routine"]
 ---

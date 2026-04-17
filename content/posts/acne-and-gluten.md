@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-skeptical-bread.jpg"
+featuredImage: "/images/grid-acne-and-gluten.png"
 quickLinks:
   - "The celiac-skin connection"
   - "Non-celiac gluten sensitivity and acne"

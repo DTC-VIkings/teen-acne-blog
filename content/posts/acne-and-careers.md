@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "Your first job interview is stressful enough without worrying about your skin. Here's why interviewers don't focus on acne and how to feel put together anyway."
-featuredImage: "/images/teen-interview-outfit.jpg"
+featuredImage: "/images/grid-acne-and-careers.png"
 keyTakeaways:
   - "**Interviewers are evaluating your answers, not your skin.** They're checking if you can do the job, show up on time, and communicate clearly. Your face isn't on the rubric."
   - "**Professional appearance is about presentation, not perfection.** Clean clothes, groomed hair, and basic hygiene signal professionalism. Clear skin does not."

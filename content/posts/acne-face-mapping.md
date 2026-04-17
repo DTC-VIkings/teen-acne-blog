@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Types of Acne"
 description: "Face mapping claims your breakout location reveals internal health problems. Some of that is real, most of it isn't. Here's what your acne location actually tells you."
-featuredImage: "/images/face-map-zones.jpg"
+featuredImage: "/images/grid-acne-face-mapping.png"
 keyTakeaways:
   - "**Traditional face mapping is mostly pseudoscience.** The idea that your forehead breakout means liver problems has no clinical backing. Don't make health decisions based on Instagram infographics."
   - "**Some location patterns do have real explanations.** T-zone oiliness, hormonal chin acne, and hairline product buildup are well-documented by dermatologists."

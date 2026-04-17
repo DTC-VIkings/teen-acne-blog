@@ -2,6 +2,7 @@
 title: "How to Pop a Pimple Safely (If You're Going to Do It Anyway)"
 date: "2026-04-30"
 category: "Guides"
+featuredImage: "/images/grid-how-to-pop-a-pimple-safely.png"
 description: "Dermatologists say don't pop pimples. You're going to do it anyway. Here's how to minimize the damage."
 ---
 

@@ -2,6 +2,7 @@
 title: "Does Drinking More Water Clear Acne? The Truth Is Boring"
 date: 2026-04-28
 category: "Dealing with Acne"
+featuredImage: "/images/grid-water-and-acne-does-drinking-help.png"
 description: "Everyone says drink more water. Here's what the actual evidence says about water and acne, and why the answer is a letdown."
 slug: "water-and-acne-does-drinking-help"
 ---

@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Guides"
 description: "Some acne treatments aren't safe during pregnancy. Here's what you can and can't use, what works, and why you should talk to your OB-GYN before changing anything."
-featuredImage: "/images/pregnant-teen-skincare.jpg"
+featuredImage: "/images/grid-acne-during-pregnancy-teens.png"
 keyTakeaways:
   - "**Retinoids are absolutely off-limits during pregnancy.** Isotretinoin (Accutane) and prescription retinoids like tretinoin carry real risks of birth defects. Stop them immediately if you become pregnant."
   - "**Azelaic acid is one of the safest and most effective pregnancy acne treatments.** It's FDA pregnancy category B, meaning animal studies show no risk and it's widely used during pregnancy."

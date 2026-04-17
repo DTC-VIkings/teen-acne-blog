@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Rachel Torres"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/peel-consultation-derm.jpg"
+featuredImage: "/images/grid-chemical-peels-acne-teens.png"
 quickLinks:
   - "What chemical peels actually do"
   - "Types of peels and which ones matter for acne"

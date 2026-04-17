@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/comedonal-bumps-closeup.jpg"
+featuredImage: "/images/grid-comedonal-acne-treatment.png"
 quickLinks:
   - "What comedonal acne actually is"
   - "Blackheads vs whiteheads (they're not what you think)"

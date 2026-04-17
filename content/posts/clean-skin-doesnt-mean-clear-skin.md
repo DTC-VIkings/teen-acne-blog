@@ -4,6 +4,7 @@ date: "2026-04-25"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-clean-skin-doesnt-mean-clear-skin.png"
 description: "Why washing your face too often damages your skin barrier, triggers more oil production, and actually makes acne worse. The science behind gentle cleansing."
 ---
 

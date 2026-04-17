@@ -2,6 +2,7 @@
 title: "Why Acne Gets Worse During Exams (And Quick Fixes That Help)"
 date: "2026-05-06"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-acne-during-exams-stress.png"
 description: "The science behind why your skin breaks out during exam season, and practical things you can do about it without adding another stressor to your plate."
 ---
 

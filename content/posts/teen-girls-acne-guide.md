@@ -2,6 +2,7 @@
 title: "Acne for Teen Girls: Hormones, Periods, and What Actually Helps"
 date: "2026-05-06"
 category: "Guides"
+featuredImage: "/images/grid-teen-girls-acne-guide.png"
 description: "How female hormones affect acne differently, why breakouts follow your cycle, and treatments that work for hormonal acne in teenage girls."
 ---
 

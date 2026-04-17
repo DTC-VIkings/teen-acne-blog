@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/clear-skin-happy-mirror.jpg"
+featuredImage: "/images/grid-post-acne-skincare-maintenance.png"
 quickLinks:
   - "The mistake almost everyone makes"
   - "Why acne comes back"

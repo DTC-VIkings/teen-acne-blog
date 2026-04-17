@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/body-wash-shower-caddy.jpg"
+featuredImage: "/images/grid-best-body-wash-acne.png"
 quickLinks:
   - "Why face products fail on body acne"
   - "Benzoyl peroxide body wash: the first thing to try"

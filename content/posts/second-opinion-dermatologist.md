@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Rachel Torres"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/frustrated-leaving-derm.jpg"
+featuredImage: "/images/grid-second-opinion-dermatologist.png"
 quickLinks:
   - "When the current treatment isn't working"
   - "Red flags with your current dermatologist"

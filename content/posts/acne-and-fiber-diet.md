@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "Fiber lowers glycemic response, feeds gut bacteria, and might reduce acne. It's not exciting, but the science is surprisingly solid. Here's why adding fiber beats most elimination diets."
-featuredImage: "/images/high-fiber-foods.jpg"
+featuredImage: "/images/grid-acne-and-fiber-diet.png"
 keyTakeaways:
   - "**Fiber slows glucose absorption, which lowers insulin and IGF-1.** Both insulin and IGF-1 drive sebum production and inflammation -- the two main engines of acne."
   - "**Most teens eat about half the recommended fiber.** The target is 25-30g daily. The average American teen gets around 13g. That gap matters."

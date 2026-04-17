@@ -2,6 +2,7 @@
 title: "Is Acne Genetic? Why Your Parents' Skin Matters More Than You Think"
 date: 2026-05-02
 category: "Types of Acne"
+featuredImage: "/images/grid-acne-and-genetics.png"
 description: "Twin studies show acne is about 81% heritable. Here's what that actually means for your skin, what you inherited, and what you can still control."
 tags: ["genetics", "acne causes", "hereditary acne", "teen acne", "family history"]
 ---

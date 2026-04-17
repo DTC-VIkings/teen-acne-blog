@@ -4,6 +4,7 @@ date: "2026-04-29"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
+featuredImage: "/images/grid-azelaic-acid-acne-teens.png"
 description: "Azelaic acid kills acne bacteria, calms redness, and fades dark marks without bleaching clothes or irritating darker skin. Here's why it deserves way more attention than it gets."
 ---
 

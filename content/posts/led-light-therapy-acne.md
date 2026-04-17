@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Rachel Torres"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/led-face-mask-device.jpg"
+featuredImage: "/images/grid-led-light-therapy-acne.png"
 quickLinks:
   - "How LED light therapy is supposed to work"
   - "Blue light and acne bacteria"

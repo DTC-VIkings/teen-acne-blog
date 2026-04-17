@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/derm-exam-room.jpg"
+featuredImage: "/images/grid-how-dermatologists-treat-acne.png"
 quickLinks:
   - "What actually happens at the first visit"
   - "How dermatologists grade your acne"

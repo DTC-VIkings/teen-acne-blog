@@ -4,6 +4,7 @@ date: "2026-05-18"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
+featuredImage: "/images/grid-hyaluronic-acid-acne-skin.png"
 description: "Hyaluronic acid won't clear your acne. But it might be the reason your acne treatments actually work. Here's the honest take on what HA does and doesn't do for breakout-prone skin."
 keyTakeaways:
   - "**HA doesn't treat acne directly.** It's a hydrating ingredient, not an acne-fighting active. Don't buy it expecting clearer skin on its own."

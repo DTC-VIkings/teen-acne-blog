@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "Bad lighting makes everyone look terrible. Good lighting makes acne practically invisible. Here's how to take photos you actually like."
-featuredImage: "/images/selfie-good-lighting.jpg"
+featuredImage: "/images/grid-acne-and-photography-tips.png"
 keyTakeaways:
   - "**Natural diffused light is the single biggest factor.** Face a window with indirect light and most skin texture becomes invisible in photos. Avoid harsh overhead lighting and direct flash."
   - "**Golden hour (the hour before sunset) is incredibly flattering.** The warm, angled light smooths texture and adds a glow that makes everyone look better."

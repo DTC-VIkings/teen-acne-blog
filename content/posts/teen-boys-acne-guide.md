@@ -2,6 +2,7 @@
 title: "Acne for Teen Boys: Why Yours Is Probably Worse (And What to Do)"
 date: 2026-05-02
 category: "Guides"
+featuredImage: "/images/grid-teen-boys-acne-guide.png"
 description: "Boys get worse acne than girls on average, and most of them have no skincare routine at all. Here's a no-BS guide to fixing that without making it complicated."
 tags: ["teen boys", "acne treatment", "skincare for guys", "testosterone acne", "shaving with acne"]
 ---

@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/siblings-different-skin.jpg"
+featuredImage: "/images/grid-acne-and-sibling-comparison.png"
 quickLinks:
   - "Why siblings can have completely different skin"
   - "The specific pain of sibling comparison"

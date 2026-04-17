@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Rachel Torres"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/calming-evening-routine.jpg"
+featuredImage: "/images/grid-acne-and-self-care-routine.png"
 quickLinks:
   - "Skincare as a ritual, not a chore"
   - "Stress and acne: the connection is real"

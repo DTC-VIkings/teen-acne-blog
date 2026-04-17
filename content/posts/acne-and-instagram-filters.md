@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/filtered-vs-unfiltered.jpg"
+featuredImage: "/images/grid-acne-and-instagram-filters.png"
 quickLinks:
   - "What filters actually do to skin"
   - "Snapchat dysmorphia"

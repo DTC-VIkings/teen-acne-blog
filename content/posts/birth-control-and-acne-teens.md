@@ -2,6 +2,7 @@
 title: "Birth Control and Acne: What Older Teens Should Know"
 date: 2026-04-28
 category: "Acne Treatments"
+featuredImage: "/images/grid-birth-control-and-acne-teens.png"
 description: "How certain birth control pills can help with hormonal acne, which ones are FDA-approved, what the side effects look like, and why this is a conversation to have with your doctor."
 slug: "birth-control-and-acne-teens"
 ---

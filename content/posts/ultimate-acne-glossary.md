@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/reading-unfamiliar-terms.jpg"
+featuredImage: "/images/grid-ultimate-acne-glossary.png"
 quickLinks:
   - "A-C"
   - "D-G"

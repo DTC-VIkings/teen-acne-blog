@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Rachel Torres"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/humid-tropical-teen.jpg"
+featuredImage: "/images/grid-acne-in-different-climates.png"
 quickLinks:
   - "Humidity and acne"
   - "Dry climates and acne"

@@ -4,6 +4,7 @@ date: "2026-04-19"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Guides"
+featuredImage: "/images/grid-how-to-get-rid-of-forehead-acne.png"
 description: "Forehead acne is the most common breakout zone for teenagers. Learn what causes it, how hair products might be the problem, and what actually works to clear it up."
 ---
 

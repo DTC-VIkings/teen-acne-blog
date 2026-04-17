@@ -2,6 +2,7 @@
 title: "Does Touching Your Face Really Cause Acne?"
 date: 2026-04-20
 category: "Dealing with Acne"
+featuredImage: "/images/grid-does-touching-face-cause-acne.png"
 description: "You touch your face way more than you think. But does it actually cause breakouts? The real answer is more nuanced than most articles admit."
 ---
 

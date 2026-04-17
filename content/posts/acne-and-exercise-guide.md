@@ -2,6 +2,7 @@
 title: "Acne and Exercise: How to Work Out Without Breaking Out"
 date: "2026-05-05"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-acne-and-exercise-guide.png"
 description: "Exercise is genuinely good for your skin, but gym acne is a real problem. Covers pre-workout prep, hygiene during workouts, post-exercise washing, body acne from workout clothes, the protein shake connection, and helmet acne."
 ---
 

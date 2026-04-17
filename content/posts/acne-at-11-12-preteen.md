@@ -2,6 +2,7 @@
 title: "Acne at 11 or 12: What's Happening and What to Do"
 date: 2026-04-22
 category: "Parents"
+featuredImage: "/images/grid-acne-at-11-12-preteen.png"
 description: "Why acne can start as early as age 11, what's happening hormonally, and a gentle approach to skincare for preteens that avoids harsh products."
 ---
 

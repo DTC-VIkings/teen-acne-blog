@@ -4,6 +4,7 @@ date: "2026-04-19"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-does-sweating-cause-acne.png"
 description: "Sweat doesn't cause acne by itself, but what you do after sweating matters. Learn about acne mechanica, the 10-minute rule, gym bacteria, and how to exercise without breaking out."
 ---
 

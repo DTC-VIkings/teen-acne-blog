@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Guides"
 description: "New climate, new water, new stress levels. Freshman year acne flares are common, but you can prepare. Here's how to set up a dorm-proof skincare routine."
-featuredImage: "/images/college-dorm-skincare.jpg"
+featuredImage: "/images/grid-acne-and-college-preparation.png"
 keyTakeaways:
   - "**Freshman year acne flares are extremely common.** Stress, sleep deprivation, diet changes, new climate, and different water quality all hit at once."
   - "**Transfer your prescriptions before you move.** Call your new college town pharmacy 2-3 weeks before move-in day so your medications are ready when you arrive."

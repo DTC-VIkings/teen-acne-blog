@@ -2,6 +2,7 @@
 title: "How to Get Rid of Blackheads on Your Nose (Without Damaging Your Skin)"
 date: 2026-04-20
 category: "Guides"
+featuredImage: "/images/grid-how-to-get-rid-of-nose-blackheads.png"
 description: "Most dark dots on your nose aren't blackheads at all. Learn the difference between blackheads and sebaceous filaments, and what actually works long-term."
 ---
 

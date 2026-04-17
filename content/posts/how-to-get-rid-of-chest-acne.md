@@ -2,6 +2,7 @@
 title: "How to Get Rid of Chest Acne: What Works and What Doesn't"
 date: "2026-04-21"
 category: "Guides"
+featuredImage: "/images/grid-how-to-get-rid-of-chest-acne.png"
 description: "Chest acne is common but rarely talked about. Here's what actually clears it, why face products often fail on your body, and how to deal with the emotional side."
 ---
 

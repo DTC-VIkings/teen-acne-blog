@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/inflammatory-pimples-closeup.jpg"
+featuredImage: "/images/grid-inflammatory-acne-explained.png"
 quickLinks:
   - "How a clogged pore becomes an inflamed one"
   - "Papules vs pustules"

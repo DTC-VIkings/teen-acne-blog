@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
 description: "Vitamin C won't treat acne, but it's one of the best things you can use for post-acne dark marks. Here's how to pick the right form and avoid breakouts."
-featuredImage: "/images/vitamin-c-serum-bright.jpg"
+featuredImage: "/images/grid-vitamin-c-serum-acne.png"
 keyTakeaways:
   - "**Vitamin C is for post-acne marks, not active acne.** It fades dark spots by inhibiting excess melanin production, but it won't unclog pores or kill bacteria."
   - "**L-ascorbic acid works best but irritates some people.** If low-pH serums break you out, try a derivative like magnesium ascorbyl phosphate or ascorbyl glucoside."

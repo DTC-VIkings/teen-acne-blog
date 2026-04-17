@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/micellar-water-cotton-pads.jpg"
+featuredImage: "/images/grid-micellar-water-acne.png"
 quickLinks:
   - "How micellar water works"
   - "Is it enough on its own?"

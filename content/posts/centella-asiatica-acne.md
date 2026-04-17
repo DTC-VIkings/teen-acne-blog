@@ -4,6 +4,7 @@ date: "2026-05-18"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
+featuredImage: "/images/grid-centella-asiatica-acne.png"
 description: "Centella asiatica won't cure your acne, but it's one of the few soothing ingredients with real science behind it. Here's what it does, what it doesn't, and the best products that use it."
 keyTakeaways:
   - "**Centella is a soothing ingredient, not a direct acne treatment.** It calms irritation and supports healing but won't unclog pores or kill bacteria on its own."

@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/glycolic-toner-bottle.jpg"
+featuredImage: "/images/grid-glycolic-acid-acne-teens.png"
 quickLinks:
   - "AHA vs BHA: the actual difference"
   - "Where glycolic acid shines"

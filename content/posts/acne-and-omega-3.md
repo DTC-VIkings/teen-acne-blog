@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "Omega-3s have real anti-inflammatory properties, and a few studies show modest acne improvement. Here's what the research actually says and whether supplements are worth it."
-featuredImage: "/images/omega-3-foods-spread.jpg"
+featuredImage: "/images/grid-acne-and-omega-3.png"
 keyTakeaways:
   - "**Omega-3s reduce inflammation through a real biological mechanism.** They compete with omega-6 fatty acids for the same enzymes, shifting your body toward less inflammatory compounds."
   - "**Two clinical studies showed modest acne improvement with omega-3 supplementation.** The results were real but not dramatic -- think 20-30% reduction, not a cure."

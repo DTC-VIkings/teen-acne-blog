@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/korean-skincare-lineup.jpg"
+featuredImage: "/images/grid-korean-skincare-acne-teens.png"
 quickLinks:
   - "Why the 10-step routine doesn't work for acne"
   - "What K-beauty gets right"

@@ -2,6 +2,7 @@
 title: "Maskne: How Masks Cause Breakouts and What Actually Helps"
 date: 2026-04-27
 category: "Dealing with Acne"
+featuredImage: "/images/grid-maskne-how-to-prevent-treat.png"
 description: "Masks still cause breakouts for athletes, healthcare workers, and sick teens. Here's what's actually happening to your skin under there and how to stop it."
 tags: ["maskne", "acne mechanica", "face masks", "breakouts", "skin irritation"]
 ---

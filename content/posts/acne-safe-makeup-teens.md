@@ -2,6 +2,7 @@
 title: "Acne-Safe Makeup for Teens: What to Use Without Breaking Out"
 date: "2026-05-05"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-acne-safe-makeup-teens.png"
 description: "A practical guide to wearing makeup when you have acne-prone skin. Covers non-comedogenic labels, mineral vs liquid foundation, concealer tricks, ingredients to avoid, and why removing makeup at night matters more than anything else."
 ---
 

@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/skin-tools-vanity.jpg"
+featuredImage: "/images/grid-acne-and-derma-tools.png"
 quickLinks:
   - "Gua sha"
   - "Jade rollers and face rollers"

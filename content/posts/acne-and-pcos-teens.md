@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-endocrinologist.jpg"
+featuredImage: "/images/grid-acne-and-pcos-teens.png"
 quickLinks:
   - "What PCOS actually is"
   - "How to suspect PCOS as a teen"

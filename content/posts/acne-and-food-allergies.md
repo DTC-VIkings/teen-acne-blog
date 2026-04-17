@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "True food allergies don't cause acne. Food sensitivities are more complicated. And those $300 IgG tests? Save your money."
-featuredImage: "/images/food-allergy-test.jpg"
+featuredImage: "/images/grid-acne-and-food-allergies.png"
 keyTakeaways:
   - "**True food allergies cause hives, swelling, and anaphylaxis, not acne.** If you eat peanuts and get pimples a week later, that's not an allergy."
   - "**IgG food sensitivity tests are unreliable.** The American Academy of Allergy, Asthma & Immunology says they shouldn't be used to diagnose food sensitivities. Don't spend $300 on one."

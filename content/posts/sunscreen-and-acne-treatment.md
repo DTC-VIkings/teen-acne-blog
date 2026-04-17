@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/sunscreen-morning-routine.jpg"
+featuredImage: "/images/grid-sunscreen-and-acne-treatment.png"
 quickLinks:
   - "Retinoids and sun sensitivity"
   - "Why UV makes acne marks darker and longer-lasting"

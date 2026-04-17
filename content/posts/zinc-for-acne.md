@@ -4,6 +4,7 @@ date: "2026-05-17"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
+featuredImage: "/images/grid-zinc-for-acne.png"
 description: "Most acne supplements are garbage. Zinc is the exception. Here's what the research says about dosing, forms, side effects, and realistic expectations."
 keyTakeaways:
   - "**Zinc has legitimate clinical evidence for acne.** Multiple studies show 30mg of zinc gluconate daily can reduce inflammatory acne by 30-50% over 8-12 weeks."

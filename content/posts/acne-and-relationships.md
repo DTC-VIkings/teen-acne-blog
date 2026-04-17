@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "Most people notice your acne far less than you think. Here's how to handle dating, confidence, and the occasional jerk who comments on your skin."
-featuredImage: "/images/nervous-before-date.jpg"
+featuredImage: "/images/grid-acne-and-relationships.png"
 keyTakeaways:
   - "**The spotlight effect is real.** Studies show people overestimate how much others notice their appearance flaws by roughly 50%. Your acne is more visible to you than to anyone else."
   - "**You don't owe anyone an explanation about your skin.** You don't need to apologize, preemptively bring it up, or justify why your face looks a certain way."

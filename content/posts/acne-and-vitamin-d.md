@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "Many teens are vitamin D deficient, and some research links low levels to worse acne. Worth checking, but not a miracle cure."
-featuredImage: "/images/teen-sunshine-outdoors.jpg"
+featuredImage: "/images/grid-acne-and-vitamin-d.png"
 keyTakeaways:
   - "**Many teens are vitamin D deficient.** Especially those with darker skin, those living in northern climates, and those who spend most of their time indoors. It's more common than people realize."
   - "**Some studies link low vitamin D to worse acne.** The connection exists in research, but it's not strong enough to call vitamin D a treatment for acne."

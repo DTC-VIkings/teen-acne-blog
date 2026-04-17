@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-sugary-snacks.jpg"
+featuredImage: "/images/grid-acne-and-sugar.png"
 quickLinks:
   - "The glycemic index mechanism"
   - "The study that changed the conversation"

@@ -2,6 +2,7 @@
 title: "Winter Skincare for Acne: Why Cold Weather Makes Breakouts Worse"
 date: 2026-04-18
 category: "Guides"
+featuredImage: "/images/grid-winter-skincare-routine-acne.png"
 description: "Cold air and indoor heating destroy your skin's moisture barrier, triggering winter breakouts. Here's how to adjust your acne routine for cold weather."
 tags: ["winter skincare", "acne", "teen acne", "dry skin", "seasonal skincare", "moisture barrier"]
 ---

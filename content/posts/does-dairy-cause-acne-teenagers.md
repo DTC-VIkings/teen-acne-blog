@@ -4,6 +4,7 @@ date: "2026-04-19"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-does-dairy-cause-acne-teenagers.png"
 description: "Is milk making your acne worse? We break down the IGF-1 mechanism, why skim milk is actually worse than whole milk for breakouts, and how to test dairy's effect on your own skin."
 ---
 

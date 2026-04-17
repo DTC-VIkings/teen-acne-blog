@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-reaching-out-phone.jpg"
+featuredImage: "/images/grid-acne-and-mental-health-resources.png"
 quickLinks:
   - "If you're in crisis right now"
   - "Hotlines and text lines"

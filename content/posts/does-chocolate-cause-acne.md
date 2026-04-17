@@ -2,6 +2,7 @@
 title: "Does Chocolate Cause Acne? What the Research Actually Says"
 date: 2026-04-18
 category: "Dealing with Acne"
+featuredImage: "/images/grid-does-chocolate-cause-acne.png"
 description: "The chocolate-acne connection is more complicated than 'yes' or 'no.' Here's what 50+ years of research actually tells us, from the flawed 1969 study to modern clinical trials."
 tags: ["chocolate acne", "diet and acne", "acne myths", "teen acne", "dairy and acne", "glycemic index"]
 ---

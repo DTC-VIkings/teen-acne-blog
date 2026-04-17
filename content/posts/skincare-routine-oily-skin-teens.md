@@ -2,6 +2,7 @@
 title: "Skincare Routine for Teens with Oily Skin: Morning and Night"
 date: "2026-04-17"
 category: "Guides"
+featuredImage: "/images/grid-skincare-routine-oily-skin-teens.png"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, Board-Certified Dermatologist"
 description: "A no-nonsense morning and night skincare routine for teens with oily skin. Covers cleansers, moisturizers, sunscreen, and why oily skin still needs hydration."

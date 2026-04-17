@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/phone-bed-blue-light.jpg"
+featuredImage: "/images/grid-acne-and-screen-time.png"
 quickLinks:
   - "Blue light and skin: what the research actually says"
   - "The real screen-skin connection is stress"

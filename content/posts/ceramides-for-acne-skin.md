@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
 description: "Your skin barrier might be the most overlooked part of acne treatment. Ceramides rebuild what acne treatments strip away."
-featuredImage: "/images/ceramide-moisturizer-shelf.jpg"
+featuredImage: "/images/grid-ceramides-for-acne-skin.png"
 keyTakeaways:
   - "**Ceramides make up about 50% of your skin barrier.** They're the lipids that hold your skin cells together and keep moisture in."
   - "**Acne-prone skin already has fewer ceramides.** Studies show lower ceramide levels in people with acne, which partly explains why their skin barrier is weaker."

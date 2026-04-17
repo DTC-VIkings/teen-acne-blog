@@ -2,6 +2,7 @@
 title: "When Should Preteens Start a Skincare Routine?"
 date: 2026-04-23
 category: "Parents"
+featuredImage: "/images/grid-when-to-start-skincare-preteens.png"
 description: "How to know when your child is ready for skincare, what a preteen routine should actually look like, why starting too early with actives backfires, and dealing with the TikTok skincare problem."
 ---
 

@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
 description: "Laundry detergent probably isn't causing your acne. But if your skin is already irritated, fragrance residue on pillowcases and towels can make things worse."
-featuredImage: "/images/detergent-bottles-towels.jpg"
+featuredImage: "/images/grid-acne-and-laundry-detergent.png"
 keyTakeaways:
   - "**Detergent rarely causes acne directly.** It can cause contact irritation that looks like acne, especially from fragranced products, but it doesn't clog pores in the traditional sense."
   - "**Fabric softener leaves more residue than detergent.** If you suspect laundry products are irritating your skin, eliminate fabric softener and dryer sheets first."

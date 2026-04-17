@@ -2,6 +2,7 @@
 title: "How Long Does Acne Last? Honest Timelines by Age and Type"
 date: 2026-04-27
 category: "Guides"
+featuredImage: "/images/grid-how-long-does-acne-last.png"
 description: "Real data on how long teen acne lasts, when it clears up, why treatment timelines matter, and when you should stop waiting and see a dermatologist."
 tags: ["acne duration", "acne timeline", "teen acne", "when does acne stop", "acne by age"]
 ---

@@ -2,6 +2,7 @@
 title: "Does Changing Your Pillowcase Help Acne? What Actually Matters"
 date: 2026-04-26
 category: "Dealing with Acne"
+featuredImage: "/images/grid-changing-pillowcase-acne.png"
 description: "Changing your pillowcase more often probably helps a little, but it's not the acne cure the internet makes it out to be. Here's what the evidence says and what else to focus on."
 tags: ["pillowcase acne", "acne hygiene", "sleep and acne", "acne tips", "teen skincare"]
 ---

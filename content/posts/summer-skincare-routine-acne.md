@@ -2,6 +2,7 @@
 title: "Summer Skincare for Acne-Prone Teens: Sun, Sweat, and Breakouts"
 date: 2026-04-18
 category: "Guides"
+featuredImage: "/images/grid-summer-skincare-routine-acne.png"
 description: "Why summer makes acne worse and how to adjust your routine for sweat, sunscreen, pool chlorine, and beach days without triggering breakouts."
 tags: ["summer skincare", "acne", "teen acne", "sunscreen", "sweat", "seasonal skincare"]
 ---

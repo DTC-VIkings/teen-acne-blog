@@ -4,6 +4,7 @@ date: "2026-05-18"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
+featuredImage: "/images/grid-tea-tree-oil-acne.png"
 description: "Most natural acne remedies are wishful thinking. Tea tree oil is the exception, with clinical trials showing it works. Here's how to use it safely and when it's not enough."
 keyTakeaways:
   - "**Tea tree oil has actual clinical trial evidence.** A 1990 study showed 5% tea tree oil performed comparably to 5% benzoyl peroxide for acne, with fewer side effects but slower onset."

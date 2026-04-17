@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/puberty-changes-mirror.jpg"
+featuredImage: "/images/grid-acne-and-testosterone.png"
 quickLinks:
   - "The testosterone-DHT-sebum pathway"
   - "Why boys tend to get worse acne"

@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/athlete-wiping-sweat.jpg"
+featuredImage: "/images/grid-skincare-routine-for-athletes.png"
 quickLinks:
   - "Why athletes break out more"
   - "Sport-by-sport problem guide"

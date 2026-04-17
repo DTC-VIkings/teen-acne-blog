@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/aloe-vera-plant-gel.jpg"
+featuredImage: "/images/grid-acne-and-aloe-vera.png"
 quickLinks:
   - "What aloe vera actually does"
   - "What aloe vera doesn't do"

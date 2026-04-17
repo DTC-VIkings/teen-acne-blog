@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-saying-no-cigarette.jpg"
+featuredImage: "/images/grid-acne-and-smoking.png"
 quickLinks:
   - "The confusing research"
   - "Smoker's acne: a different pattern"

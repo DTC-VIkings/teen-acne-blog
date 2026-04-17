@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/topical-antibiotic-tube.jpg"
+featuredImage: "/images/grid-clindamycin-topical-acne.png"
 quickLinks:
   - "What clindamycin actually does to acne bacteria"
   - "Why you should never use it alone"

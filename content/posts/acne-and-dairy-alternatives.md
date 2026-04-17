@@ -4,6 +4,7 @@ date: "2026-05-19"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-acne-and-dairy-alternatives.png"
 description: "The dairy-acne connection is real but complicated. Here's what happens when you switch to plant milk, which alternatives are best, and why you probably don't need to cut out cheese."
 keyTakeaways:
   - "**Whey protein is a bigger acne trigger than regular milk.** If you're using protein shakes, try switching to a plant-based protein before cutting all dairy."

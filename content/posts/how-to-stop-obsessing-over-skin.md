@@ -4,6 +4,7 @@ date: "2026-04-25"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-how-to-stop-obsessing-over-skin.png"
 description: "Practical strategies for teens who can't stop thinking about their acne, including the 2-minute mirror rule, social media detox tips, and how to build an identity beyond your skin."
 ---
 

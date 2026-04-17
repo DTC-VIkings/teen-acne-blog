@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-healthy-food-options.jpg"
+featuredImage: "/images/grid-acne-and-weight-changes.png"
 quickLinks:
   - "How fat tissue affects hormones"
   - "The insulin-acne connection"

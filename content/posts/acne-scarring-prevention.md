@@ -4,6 +4,7 @@ date: "2026-05-19"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Guides"
+featuredImage: "/images/grid-acne-scarring-prevention.png"
 description: "Treating acne scars is expensive and difficult. Preventing them is easier, cheaper, and more effective. Here's what to do in the critical window before permanent damage sets in."
 keyTakeaways:
   - "**The first 6 months of acne are critical.** Early, aggressive treatment dramatically reduces scarring risk. Waiting to 'grow out of it' is one of the worst pieces of advice parents give."

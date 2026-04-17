@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-city-street.jpg"
+featuredImage: "/images/grid-acne-and-pollution.png"
 quickLinks:
   - "What pollution actually does to skin"
   - "The research linking pollution to acne"

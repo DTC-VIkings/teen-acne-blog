@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/green-tea-cup-skincare.jpg"
+featuredImage: "/images/grid-acne-and-green-tea.png"
 quickLinks:
   - "EGCG: the compound that matters"
   - "Topical green tea: what the studies say"

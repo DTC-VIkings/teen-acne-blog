@@ -2,6 +2,7 @@
 title: "Acne at 13-15: Why Puberty Makes Breakouts Peak"
 date: 2026-04-22
 category: "Parents"
+featuredImage: "/images/grid-acne-at-13-15-puberty-peak.png"
 description: "The science behind why acne hits hardest during the 13-15 age range, what's happening hormonally, and how to build an effective routine for your teenager."
 ---
 

@@ -2,6 +2,7 @@
 title: "TikTok Acne Hacks: Which Ones Work, Which Are Dangerous"
 date: "2026-04-24"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-tiktok-acne-hacks-which-work.png"
 description: "I tested and researched the most popular TikTok acne hacks so you don't have to burn your face off. Here's what actually works, what's harmless fluff, and what you should avoid."
 ---
 

@@ -4,6 +4,7 @@ date: "2026-04-29"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Acne Treatments"
+featuredImage: "/images/grid-adapalene-differin-guide-teens.png"
 description: "Adapalene is a retinoid that went OTC in 2016 and changed everything for teen acne treatment. Here's how to start it properly without wrecking your skin in the process."
 ---
 

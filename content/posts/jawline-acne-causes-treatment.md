@@ -2,6 +2,7 @@
 title: "Jawline Acne: What Causes It and How to Treat It"
 date: "2026-05-03"
 category: "Guides"
+featuredImage: "/images/grid-jawline-acne-causes-treatment.png"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 description: "Jawline acne behaves differently from forehead or nose breakouts. Here's why it happens, what's driving it in girls vs boys, and what actually works to treat it."

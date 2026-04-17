@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/probiotic-bottles-shelf.jpg"
+featuredImage: "/images/grid-acne-and-probiotics.png"
 quickLinks:
   - "The gut-skin axis in brief"
   - "Which strains have been studied for acne"

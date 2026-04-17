@@ -2,6 +2,7 @@
 title: "Why Your Acne Gets Worse Before Your Period (And What to Do About It)"
 date: 2026-04-26
 category: "Guides"
+featuredImage: "/images/grid-acne-and-period-cycle.png"
 description: "Your period breakouts aren't random. Here's what's actually happening with your hormones in the days before your period, and how to get ahead of it."
 tags: ["hormonal acne", "period acne", "menstrual cycle", "teen skincare", "breakouts"]
 ---

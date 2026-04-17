@@ -2,6 +2,7 @@
 title: "Do Protein Shakes and Supplements Cause Acne in Teens?"
 date: "2026-04-21"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-do-protein-shakes-cause-acne.png"
 description: "Whey protein has a real connection to acne breakouts. Here's what the research says about protein shakes, creatine, pre-workouts, and BCAAs."
 ---
 

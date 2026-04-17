@@ -4,6 +4,7 @@ date: "2026-05-17"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Guides"
+featuredImage: "/images/grid-back-to-school-skincare.png"
 description: "Summer's over, and your skin routine needs a reset. Here's how to transition into a fall skincare routine that fits into school mornings and actually works."
 keyTakeaways:
   - "**Transition your routine gradually.** Don't go from zero actives in summer to a full retinoid + BHA routine overnight. Reintroduce one product at a time over 2-3 weeks."

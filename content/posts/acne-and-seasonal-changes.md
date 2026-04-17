@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Guides"
 description: "Your skin behaves differently in summer than winter. Here's when to adjust your routine, which products to swap, and which ones to keep year-round."
-featuredImage: "/images/four-seasons-products.jpg"
+featuredImage: "/images/grid-acne-and-seasonal-changes.png"
 keyTakeaways:
   - "**Summer and winter require different skincare weights.** Lighter moisturizers and more sunscreen in summer; heavier barrier repair and humidifier use in winter."
   - "**Fall is the best time to reintroduce retinoids.** Less UV exposure means less photosensitivity risk, and your skin has months to adjust before summer."

@@ -2,6 +2,7 @@
 title: "Oil Cleansing for Acne-Prone Skin: Does It Actually Work?"
 date: "2026-05-03"
 category: "Guides"
+featuredImage: "/images/grid-oil-cleansing-method-acne.png"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 description: "Putting oil on acne-prone skin sounds wrong. But the chemistry behind oil cleansing is sound, and for certain skin types, it works surprisingly well. Here's an honest breakdown."

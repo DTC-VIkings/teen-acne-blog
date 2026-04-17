@@ -2,6 +2,7 @@
 title: "Acne and Anxiety: When It's More Than Just Worrying About Your Skin"
 date: "2026-04-24"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-acne-anxiety-when-to-get-help.png"
 description: "Acne can affect your mental health in real, measurable ways. Here's how to tell when normal self-consciousness crosses into something that needs professional support."
 ---
 

@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Guides"
 description: "You don't need expensive products to treat acne. Here's a complete routine under $30 that uses the same active ingredients dermatologists recommend."
-featuredImage: "/images/budget-products-price-tags.jpg"
+featuredImage: "/images/grid-affordable-acne-routine.png"
 keyTakeaways:
   - "**Expensive doesn't mean effective for acne.** The active ingredients that actually work (adapalene, benzoyl peroxide, niacinamide) are available in cheap drugstore products."
   - "**A full acne routine can cost under $30.** Cetaphil cleanser ($8) + The Ordinary adapalene ($10) + Vanicream moisturizer ($10) = $28 and covers all the basics."

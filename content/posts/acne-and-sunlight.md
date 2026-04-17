@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Emily Carter"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/teen-bright-sunlight.jpg"
+featuredImage: "/images/grid-acne-and-sunlight.png"
 quickLinks:
   - "Why people think sun helps acne"
   - "Why sun actually makes things worse"

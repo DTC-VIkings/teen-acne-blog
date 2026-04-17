@@ -2,6 +2,7 @@
 title: "The 2-Product Acne Routine for Teens Who Won't Do 5 Steps"
 date: "2026-04-17"
 category: "Guides"
+featuredImage: "/images/grid-minimal-acne-routine-lazy-teens.png"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, Board-Certified Dermatologist"
 description: "The absolute minimum skincare routine that still works for teen acne. Just two products, twice a day. Because the best routine is the one you'll actually do."

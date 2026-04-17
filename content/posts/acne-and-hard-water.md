@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/shower-mineral-buildup.jpg"
+featuredImage: "/images/grid-acne-and-hard-water.png"
 quickLinks:
   - "What hard water actually is"
   - "How hard water interacts with your skin"

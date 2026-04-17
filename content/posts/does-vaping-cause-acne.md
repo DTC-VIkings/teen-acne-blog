@@ -2,6 +2,7 @@
 title: "Does Vaping Cause Acne? What Teens Need to Know"
 date: "2026-04-24"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-does-vaping-cause-acne.png"
 description: "The research on vaping and acne is limited, but the ingredients in vape liquid can affect your skin in ways that matter. Here's what we actually know."
 ---
 

@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/flipping-product-label.jpg"
+featuredImage: "/images/grid-how-to-read-skincare-labels.png"
 quickLinks:
   - "How ingredients lists are ordered"
   - "Active vs. inactive ingredients"

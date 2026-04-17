@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/probiotic-foods-table.jpg"
+featuredImage: "/images/grid-acne-and-gut-health.png"
 quickLinks:
   - "The gut-skin axis is real, but young"
   - "How gut inflammation could affect your skin"

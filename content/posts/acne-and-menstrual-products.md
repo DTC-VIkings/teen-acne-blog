@@ -4,6 +4,7 @@ date: "2026-05-19"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-acne-and-menstrual-products.png"
 description: "Your menstrual products aren't causing your breakouts. Your hormones are. Here's how to track the pattern, time your treatments, and manage the frustrating reality of cyclical acne."
 keyTakeaways:
   - "**Menstrual products themselves don't cause acne.** Tampons, pads, cups, and discs have no effect on your skin. The hormonal cycle driving your period is what triggers breakouts."

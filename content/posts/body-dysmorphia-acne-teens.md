@@ -4,6 +4,7 @@ date: "2026-04-25"
 author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-body-dysmorphia-acne-teens.png"
 description: "How acne can trigger body dysmorphic disorder in teens, the difference between normal skin concerns and BDD, and what to do if your skin worries have taken over your life."
 ---
 

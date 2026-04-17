@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Guides"
 description: "Every sport creates different acne problems. Helmet friction, chlorine exposure, mat bacteria - here's how to handle breakouts sport by sport."
-featuredImage: "/images/football-helmet-removal.jpg"
+featuredImage: "/images/grid-acne-and-sports-specific.png"
 keyTakeaways:
   - "**Helmet sports (football, hockey, lacrosse) cause acne mechanica.** Friction and pressure from helmets, chin straps, and pads create breakouts in predictable patterns. Moisture-wicking liners and post-game cleansing help."
   - "**Chlorine dries out skin and disrupts the barrier.** Swimmers need to rinse immediately after pool time and moisturize aggressively. Goggles can also cause periorbital breakouts from friction."

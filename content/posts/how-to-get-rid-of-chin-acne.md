@@ -2,6 +2,7 @@
 title: "How to Get Rid of Chin Acne: Why It Keeps Coming Back"
 date: 2026-04-20
 category: "Guides"
+featuredImage: "/images/grid-how-to-get-rid-of-chin-acne.png"
 description: "Chin acne is almost always hormonal. Here's what actually works to treat it, why spot treatments fail, and when to talk to a dermatologist about spironolactone."
 ---
 

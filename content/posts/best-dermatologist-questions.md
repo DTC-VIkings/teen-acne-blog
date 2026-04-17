@@ -5,7 +5,7 @@ author: "Teen Acne Solutions Editorial Team"
 reviewedBy: "Dr. Rachel Torres, MD, Pediatric Dermatologist"
 category: "Parents"
 description: "A practical list of questions to bring to your dermatology appointment so you leave with real answers instead of nodding along and forgetting everything."
-featuredImage: "/images/notepad-derm-waiting.jpg"
+featuredImage: "/images/grid-best-dermatologist-questions.png"
 keyTakeaways:
   - "**Write your questions down before the appointment.** Derm visits are short and it's easy to freeze up or forget what you wanted to ask. A phone note or printed list fixes this."
   - "**Always ask about timelines and plan B.** Knowing when to expect results and what happens if the first treatment doesn't work reduces anxiety and keeps you from quitting too early."

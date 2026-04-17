@@ -7,7 +7,7 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
-featuredImage: "/images/sulfur-spot-treatment.jpg"
+featuredImage: "/images/grid-sulfur-acne-treatment.png"
 quickLinks:
   - "How sulfur actually works on acne"
   - "The De La Cruz situation"

@@ -2,6 +2,7 @@
 title: "Skin Picking and Acne: When You Can't Stop Touching Your Face"
 date: "2026-04-30"
 category: "Dealing with Acne"
+featuredImage: "/images/grid-skin-picking-disorder-teens.png"
 description: "Compulsive skin picking is more common than most people realize, especially when you have acne. Here's what it is, why it happens, and what actually helps."
 ---
 
